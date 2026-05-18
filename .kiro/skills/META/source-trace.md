@@ -1,0 +1,287 @@
+# META · 来源追溯表（Source Trace · v1.0）
+
+> **本文件版本**：v1.0（独立于主 Skill v6.1.0）
+> **首发日期**：2026-05-18（FEAT-005）
+> **角色**：每条已入库规律的『来源文档 + 来源段落锚点 + 当前 Skill 模块映射』三元组（audit log）。
+> **协同**：与 `blind-bazi-cases-index.md` **双向同步**（cases-index 按案例视角，本表按来源文档视角）；与 `META/module-coverage-matrix.md` 互为校验。
+
+> **三元组定义**：每条规律必须能用以下格式描述：
+>
+> ```
+> [规律编号 / 名称] · 来源 = [md 文件 + 章节号 / 段落起始关键词] · 当前位置 = [Skill 模块文件 + §章节号]
+> ```
+
+---
+
+## §S.0 角色与不变量
+
+| 不变量 | 说明 |
+|---|---|
+| **来源唯一性** | 每条规律必须有 ≥ 1 个原文锚点（文件 + 章节 / 段落关键词） |
+| **当前位置可 grep** | 当前位置必须能在 `.kiro/skills/` 树下 grep 命中 |
+| **双向同步** | 本表与 `blind-bazi-cases-index.md` 规律分数板**双向同步** |
+| **入库即追加** | 任何规律进入主模块（ingestion-protocol §I.1.5 阶段 5）必须**同时**追加本表三元组，不允许『先入主模块后补 trace』 |
+
+---
+
+## §S.1 已入库规律的三元组（按入库时间倒序 · ≥ 30 条）
+
+### §S.1.1 v6.1.0 主入口与模块 A / 模块 C 三大补强（FEAT-001 写入）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| TRACE-FEAT001-01 | 婚姻状态前置必采集（婚况触发词识别表 + 必采集字段表 + 强制流程铁律 §1.4-A 至 §1.4-F 六条 + 口诀） | `盲派命理AI分析师提示词_v2.1.md` 第六部分 Step 0 / Step 0.5 / Step 4 / Step 8 | `blind-bazi-analyst.md` §1.4 |
+| TRACE-FEAT001-02 | Step 3 输出前铁断前提自检（铁断前提标注格式 + 扫描触发词 + 自检 5 问 + 典型违规与修正） | `盲派命理AI分析师提示词_v2.1.md` 第九部分『断命禁忌·新增条款』+ 第十一部分『反幻觉硬约束 #6』 | `blind-bazi-analyst.md` §3.0 |
+| TRACE-FEAT001-03 | §3.1 模块加载规则 v6.1.0 新增三行（婚姻 / 月份 / ★★★★★）| `盲派命理AI分析师提示词_v2.1.md` 第六部分 + `_v2.0.md` 第三部分补丁 A | `blind-bazi-analyst.md` §3.1 v6.1.0 新增触发行 |
+| TRACE-FEAT001-04 | 反馈请求块第 4 条采集婚姻状态 | `盲派命理AI分析师提示词_v2.1.md` 第六部分 Step 0 | `blind-bazi-analyst.md` §1.3 第 4 条 |
+| TRACE-FEAT001-05 | 空亡应用三律（悬空 / 填实 / 冲动 + 与已婚-未婚态联动 + 实战 5 步 + 参考案例）| `盲派命理AI分析师提示词_v2.0.md` 第三部分补丁 B『空亡的三态』『铁律口诀』『实战应用步骤』+ `_v2.1.md` 第六部分 Step 8 | `modules/module-a-paipan.md` §A.1.5 |
+| TRACE-FEAT001-06 | 空亡进阶判读（空亡 + 库 / 空亡 + 神煞 / 双空亡 / 同步填实 / 母女空亡承袭）| `盲派命理AI分析师提示词_v2.0.md` 第三部分补丁 B 实战 5 步 + `案例库/案例002_壬申癸卯丁未壬寅_坤命_1992.md` 双空亡实证 + `案例库/案例002_合婚补充_验证修正_2026-05-14.md` 母女空亡承袭实证 | `modules/module-a-paipan.md` §A.2.6 |
+| TRACE-FEAT001-07 | 流年 12 月应期推演法（节气月锁定 + 五虎遁月干 + 5 维打分 ≥ 20 高峰月 + 12 月通用象意 + 三点一线月级验证）| `盲派命理AI分析师提示词_v2.0.md` 第三部分补丁 A『月份应期三层框架』『节气月锁定表』『五虎遁月干推演』『5 维打分法』『十二月通用象意速查表』『三点一线月级验证』+ #CASE-001 提拔月份推演实证 | `modules/module-c-yunqi.md` §C.4.5 |
+
+### §S.1.2 模块 D（合婚双盘交互层）· FEAT-002 写入
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| TRACE-FEAT002-D1 | 模块 D 摘要节（双方排盘对照表 + 一句话适配判语 + 反馈请求块 D 模块版） | `合婚分析报告_丁丑男_丙申女.md` §一双方排盘 + `盲派命理AI分析师提示词_v2.1.md` 第六部分 | `modules/module-d-hehun.md` §D.1 |
+| TRACE-FEAT002-D2 | 10 维合婚矩阵评分法（10 维主表 + 等级判语对照 + 每维评分模板 + 案例对照） | `合婚分析报告_丁丑男_丙申女.md` §四 10 维评分 | `modules/module-d-hehun.md` §D.2 |
+| TRACE-FEAT002-D3 | 三垣呼应铁律（三垣释义 + 呼应铁律表 + 命定型缘分晋级路径 + 自检）| `盲派命理AI分析师提示词_v2.1.md` 第七部分三垣呼应 + `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断一 | `modules/module-d-hehun.md` §D.3 |
+| TRACE-FEAT002-D4 | 大运同步性识别（4 种典型同步模式 + 同序共振 + 偏财×食神 + 比劫镜像 + 食伤驱动） | `合婚分析报告_丁丑男_丙申女.md` §五大运同步性 + `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断二 | `modules/module-d-hehun.md` §D.4 |
+| TRACE-FEAT002-D5 | 官财同字呼应（概念 + 强度分级表 + 案例 002 论断四完整推理链 + 与 §D.6 桃花归宫的关系） | `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断四 | `modules/module-d-hehun.md` §D.5 |
+| TRACE-FEAT002-D6 | 桃花归宫不破婚识别（4 件齐 = ★★★★ 双向闭环 + 4 重保障机制 + 已婚态 vs 未婚态分流 + 与 v2.0 旧断的差异） | `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断三 + `_v2.1.md` 第八部分 | `modules/module-d-hehun.md` §D.6 |
+| TRACE-FEAT002-D7 | 三窗口推荐（同居窗 / 领证窗 / 风险窗 + 三窗口铁律 + 时间线箭头图） | `合婚分析报告_丁丑男_丙申女.md` §七三窗口 | `modules/module-d-hehun.md` §D.7 |
+| TRACE-FEAT002-D8 | 模块 D 自检清单 + 与主入口的双向闭合 | `合婚分析报告_丁丑男_丙申女.md` 整体 + `_v2.1.md` 第六部分 | `modules/module-d-hehun.md` §D.8 |
+
+### §S.1.3 模块 E（剖腹产择日独立流程层）· FEAT-002 写入
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| TRACE-FEAT002-E0 | 模块 E 角色与边界（伦理硬约束 7 条 + 工作模式 + 输出风格） | `盲派命理剖腹产择日提示词_v1.8.md` §一伦理 + §二工作模式 | `modules/module-e-zeri.md` §E.0 |
+| TRACE-FEAT002-E1 | 信息采集（6 项必需 + 5 项建议 + 标准开局话术 + 真太阳时校正） | `盲派命理剖腹产择日提示词_v1.8.md` §三信息采集 | `modules/module-e-zeri.md` §E.1 |
+| TRACE-FEAT002-E2 | 父母画像与择日坐标系（父亲画像 + 母亲画像 + 择日坐标系提取） | `盲派命理剖腹产择日提示词_v1.8.md` §四父母画像 | `modules/module-e-zeri.md` §E.2 |
+| TRACE-FEAT002-E3 | 七层递进核心算法（总图铁律 §E.3-A + 第 1-7 层逐层打分）| `盲派命理剖腹产择日提示词_v1.8.md` §五七层递进 | `modules/module-e-zeri.md` §E.3 |
+| TRACE-FEAT002-E4 | 三体系投票（盲派 1 + 子平 1 + 择吉 0.5 + 投票汇总 + 四象限分类法 + 归一化综合分 + 分歧标记）| `盲派命理剖腹产择日提示词_v1.8.md` §六三体系投票 | `modules/module-e-zeri.md` §E.4 |
+| TRACE-FEAT002-E5 | 候选命书 5 维画像 + 大运前三步 + 三候选横向对比表 + 方向建议表 | `盲派命理剖腹产择日提示词_v1.8.md` §七 5 维画像 + §八大运前三步 | `modules/module-e-zeri.md` §E.5 |
+| TRACE-FEAT002-E6 | 敏感度分析模板 + 降级严重度 + 自检 | `盲派命理剖腹产择日提示词_v1.8.md` §九敏感度分析 | `modules/module-e-zeri.md` §E.6 |
+| TRACE-FEAT002-E7 | 极窄窗口三级退让策略 + 退让报告额外要求 | `盲派命理剖腹产择日提示词_v1.8.md` §十三级退让 | `modules/module-e-zeri.md` §E.7 |
+| TRACE-FEAT002-E8 | 12 段标准报告输出顺序 + 4 个补强模块 + 自检 | `盲派命理剖腹产择日提示词_v1.8.md` §十一 12 段报告 | `modules/module-e-zeri.md` §E.8 |
+| TRACE-FEAT002-E9 | 模块 E 自检清单 + 与主入口的双向闭合 | `盲派命理剖腹产择日提示词_v1.8.md` 整体 | `modules/module-e-zeri.md` §E.9 |
+| TRACE-FEAT002-E10 | 延伸资料追溯（22 项一票否决全表 / 神煞白名单 / 子平四种格局表 / 彭祖百忌全表，仅按需加载） | `盲派命理剖腹产择日提示词_v1.8.md` §十二延伸资料 | `modules/module-e-zeri.md` §E.10 |
+
+### §S.1.4 案例 002 系列已晋级 / 黄灯规律（FEAT-003 同时回写中 · 本表先记录 source 维度）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| R-002-COMPAT-01 | 男命月令咸池 + 魁罡日 + 卯戌合归夫宫 + 金舆嫁贵 + 已婚态前提 = 结构性桃花伴生但不破婚（4 重保障）| `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断三 | `modules/module-b-geju.md` §B.8（FEAT-003 写入） + `modules/module-d-hehun.md` §D.6 |
+| R-002-COMPAT-02 | 大运地支同序共振 = 同频夫妻（合婚专属应期）| `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断二 | `modules/module-c-yunqi.md` §C.3.5（FEAT-003 写入） + `modules/module-d-hehun.md` §D.4.2 |
+| R-002-COMPAT-03 | 官财同字呼应 = 一字两用（互为对方所求，触发力度 ×1.5）| `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断四 | `modules/module-c-yunqi.md` §C.3.6（FEAT-003 写入） + `modules/module-d-hehun.md` §D.5 |
+| R-002-COMPAT-04 | 戌合卯空亡 = 印章 / 契约引动（领证应期）| `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断四 + `案例库/案例002_婚育时间线完整应验_2026-05-16.md` 领证年验证 | `modules/module-c-yunqi.md` §C.3.7（FEAT-003 写入） |
+| R-002-COMPAT-05 | 辛丑运末段（≈21-30 岁）= 家庭奠基期（已婚态）| `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断五 | `modules/module-c-yunqi.md` §C.3.8（FEAT-003 写入） |
+| R-002-FUYIN-01 | 子女命局日柱与母命某柱完全伏吟 → 子女从母命对应宫位『长出来』 | `案例库/案例002_错误修正与子女八字呼应铁证_2026-05-16.md` 第一节 | `modules/module-b-geju.md` §B.9（FEAT-003 写入） |
+| R-002-FUYIN-02 | 时柱伏吟 + 时支为母命子女宫 → 子女宫藏干实人化为子女天干 | `案例库/案例002_错误修正与子女八字呼应铁证_2026-05-16.md` 第二节 | `modules/module-b-geju.md` §B.9 |
+| R-002-FUYIN-03 | 母女同空亡 + 同神煞组合 → 命格深度连接，会同步触发空亡填实 | `案例库/案例002_合婚补充_验证修正_2026-05-14.md` 母女空亡承袭节 | `modules/module-a-paipan.md` §A.2.6 五（v6.1.0 已写）+ `modules/module-b-geju.md` §B.9 |
+| R-002-FUYIN-04 | 子女年柱 = 母命大运干支 → 子承母运 | `案例库/案例002_错误修正与子女八字呼应铁证_2026-05-16.md` 第三节 | `modules/module-b-geju.md` §B.9（FEAT-003 写入） |
+| R-002-VERIFY-01 | 命定型同步婚（已两案累计 1.6 / 2.4，待 ≥ 2.4 晋级，但已是合婚类最强信号）| `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 论断一 + `合婚分析报告_丁丑男_丙申女.md` §四 | `modules/module-d-hehun.md` §D.3 + `cases/compatibility.md` 顶部表 |
+
+### §S.1.5 P2 附录（FEAT-004 写入 · 取象字典 + 职业识别库）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| TRACE-FEAT004-Q0 | 附录-取象 加载规则（默认不在 Step 1 加载 + 触发关键词命中后单次 load + 释放策略） | `盲派命理AI分析师提示词_v1.md` §二取象规则库 + `_v2.0.md` §二取象规则库 | `modules/appendix-quxiang.md` §Q.0 |
+| TRACE-FEAT004-Q1 | 十天干完整取象（甲乙丙丁戊己庚辛壬癸 10 个独立字典） | `盲派命理AI分析师提示词_v1.md` §二第一节 + `_v2.0.md` §二第一节 | `modules/appendix-quxiang.md` §Q.1 |
+| TRACE-FEAT004-Q2 | 十二地支核心取象（子丑寅卯辰巳午未申酉戌亥 12 个） | `盲派命理AI分析师提示词_v1.md` §二第二节 + `_v2.0.md` §二第二节 | `modules/appendix-quxiang.md` §Q.2 |
+| TRACE-FEAT004-Q3 | 宫位取象系统（六亲 / 时间 / 身体 / 空间 四宫位表） | `盲派命理AI分析师提示词_v1.md` §二第三节 + `_v2.0.md` §二第三节 | `modules/appendix-quxiang.md` §Q.3 |
+| TRACE-FEAT004-Q4 | 取象铁律三条（天干必找地支根源 / 我宫透出=命主特使 / 年月透入=国家社会送来）| `盲派命理AI分析师提示词_v1.md` §二取象总纲 + `_v2.0.md` 取象铁律段 | `modules/appendix-quxiang.md` §Q.4 |
+| TRACE-FEAT004-Q5 | 取象自检 5 问 | `盲派命理AI分析师提示词_v1.md` 取象部分末尾 | `modules/appendix-quxiang.md` §Q.5 |
+| TRACE-FEAT004-Q6 | 与主入口 / 各模块的协同位置 | 综合 v1 / v2.0 取象部分 | `modules/appendix-quxiang.md` §Q.6 |
+| TRACE-FEAT004-Q7 | 取象不变量（格言区）| 综合 | `modules/appendix-quxiang.md` §Q.7 |
+| TRACE-FEAT004-Z0 | 附录-职业 加载规则（默认不在 Step 1 加载 + 触发关键词命中后单次 load + 释放策略） | `盲派命理AI分析师提示词_v1.md` §六职业识别库 + `_v2.0.md` 第三部分公务员细分 | `modules/appendix-zhiye.md` §Z.0 |
+| TRACE-FEAT004-Z1 | 11 种职业画像（教师 / 公务员 / 医生 / 银行 / 房地产 / 律师 / 公检法 / 生意人 / 小偷 / 体力劳动者 / 财务）| `盲派命理AI分析师提示词_v1.md` §六第一节至第十一节 | `modules/appendix-zhiye.md` §Z.1 |
+| TRACE-FEAT004-Z2 | 公务员 6 细分（一把手 / 二把手参谋 / 业务骨干 / 技术官员 / 纪检执法 / 清贵文职）+ 仕途天花板判定法 | `盲派命理AI分析师提示词_v2.0.md` §三第三部分公务员细分 + 仕途天花板补丁 | `modules/appendix-zhiye.md` §Z.2 |
+| TRACE-FEAT004-Z3 | 职业识别 5 步法 | `盲派命理AI分析师提示词_v1.md` §五『事业专题』5 步断职业法 | `modules/appendix-zhiye.md` §Z.3 |
+| TRACE-FEAT004-Z4 | 驱动模式 → 时代落地映射规则 | `盲派命理AI分析师提示词_v2.0.md` 时代落地补丁 + #CASE-001 实证 | `modules/appendix-zhiye.md` §Z.4 |
+| TRACE-FEAT004-Z5 | 职业识别自检 5 问 | `盲派命理AI分析师提示词_v1.md` 第六部分末尾 | `modules/appendix-zhiye.md` §Z.5 |
+| TRACE-FEAT004-Z6 | 与主入口 / 各模块的协同位置 | 综合 v1 / v2.0 职业部分 | `modules/appendix-zhiye.md` §Z.6 |
+| TRACE-FEAT004-Z7 | 职业不变量（格言区）| 综合 | `modules/appendix-zhiye.md` §Z.7 |
+
+### §S.1.6 既有 cases-index 规律分数板 · 历史已入库（v6.0 ~ v6.0.4 沉淀）
+
+> 这部分是 FEAT-001 ~ 004 之前就已沉淀的规律，本表把它们的来源 / 当前位置三元组**首次完整列出**（之前散在 cases/<专题>.md，从未集中归口）。
+
+#### 婚姻类（来源 #CASE-20260513-01 · 坤造甲戌己巳戊戌乙卯）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| TRACE-CASE-001-01 | 杀先官后 = 先短后长二婚格局 | （指 CASE-20260513-01 婚姻案例） `案例库/` 暂无独立 md（信息源自坤造闪婚回溯）| `cases/marriage.md` 本案验证 / 贡献的规律 + `blind-bazi-cases-index.md` 婚姻类规律分数板 |
+| TRACE-CASE-001-02 | 七杀运成婚 = 偏缘短婚 | 同上 | `cases/marriage.md` + `blind-bazi-cases-index.md` 婚姻类 |
+| TRACE-CASE-001-03 | 子卯无礼之刑 = 婚变应期 | 同上 | `cases/marriage.md` + `modules/module-c-yunqi.md` 应期机制 |
+| TRACE-CASE-001-04 | 短婚消杀 = 正官让路 | 同上 | `cases/marriage.md` 回溯逻辑链 |
+| TRACE-CASE-001-05 | 双童子经历挫折化解一层 | 同上 | `cases/marriage.md` |
+| TRACE-CASE-001-06 | 食神透干 + 日柱伏吟 = 成婚年 | 同上 | `cases/marriage.md` + `modules/module-c-yunqi.md` 流年应期 |
+| TRACE-CASE-001-07 | 魁罡女命择偶标准高（修正传统） | 同上 | `cases/marriage.md` + `rule-conflicts.md` 争议 #1 |
+| TRACE-CASE-001-08 | 十恶大败 = 少年无祖业（修正传统） | 同上 | `cases/marriage.md` + `rule-conflicts.md` 争议 #2 |
+
+#### 合婚类（来源 #CASE-20260513-02 · 丁丑男 × 丙申女）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| TRACE-CASE-002COMP-01 | 丁壬合 = 合化情感最强天干五合 | `合婚分析报告_丁丑男_丙申女.md` §二天干合化分析 + 传统命理 | `cases/compatibility.md` + `modules/module-d-hehun.md` §D.2 |
+| TRACE-CASE-002COMP-02 | 大运十神互补（偏财×食神） = 目标同步加分 | `合婚分析报告_丁丑男_丙申女.md` §五大运同步性 | `cases/compatibility.md` + `modules/module-d-hehun.md` §D.4.3 |
+| TRACE-CASE-002COMP-03 | 流年纳音与对方身宫同步 = 重大行动窗口 | `合婚分析报告_丁丑男_丙申女.md` §六流年窗口 | `cases/compatibility.md` + `modules/module-d-hehun.md` §D.7 |
+| TRACE-CASE-002COMP-04 | 比劫镜像同步年 = 适合同居非领证 | `合婚分析报告_丁丑男_丙申女.md` §七三窗口 / 同居窗 | `cases/compatibility.md` + `modules/module-d-hehun.md` §D.4.4 |
+| TRACE-CASE-002COMP-05 | 丑未冲开婚姻宫（已同居前提） = 领证年 | `合婚分析报告_丁丑男_丙申女.md` §七三窗口 / 领证窗 | `cases/compatibility.md` + `modules/module-d-hehun.md` §D.7 |
+| TRACE-CASE-002COMP-06 | 男食神 × 女伤官 = 一安一推的领证合力 | `合婚分析报告_丁丑男_丙申女.md` §五大运同步性 / §七领证窗 | `cases/compatibility.md` + `modules/module-d-hehun.md` §D.4.5 |
+
+#### 事业类（来源 #CASE-001 · 乙丑庚辰己丑庚午 男命公务员）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| R-001-CAREER-01 | 伤官合杀（杀轻伤重） = 体制内公务员 | `案例库/案例001_乙丑庚辰己丑庚午_男命公务员.md` 体用 / 格局节 | `modules/module-b-geju.md` §B.4（意向识别）+ `appendix-zhiye.md` §Z.1 公务员 |
+| R-001-CAREER-02 | 双伤透干 + 华盖 + 文昌 + 德秀 = 文字 / 秘书岗 | 同上 取象节 | `appendix-zhiye.md` §Z.1 公务员细类 |
+| R-001-CAREER-03 | 大事办不了小事可协调 = 杀轻伤重的社会角色公式 | 同上 反向校准节 | `modules/module-b-geju.md` §B.4 |
+| R-001-CAREER-04 | 事业编 + 公务员编双轨并行 = 伤官合杀 + 丑伏吟编制分离 | 同上 二轮反馈节 | `modules/module-b-geju.md` + `modules/module-c-yunqi.md` 跨模块 |
+| R-001-CAREER-05 | 辅佐位（跟领导） = 杀轻伤重的正位 | 同上 体用结论 | `modules/module-b-geju.md` §B.4 + `appendix-zhiye.md` 二把手参谋型 |
+| R-001-CAREER-06 / REVISE-001 | 模块 B 标"轻松兑现"时 → 应期锚大运前 1/3 段（非中后段） | 同上 第一轮反馈跨模块冲突 #1 | `modules/module-c-yunqi.md` §C.2.2.1 + `rule-conflicts.md` 跨模块冲突 #1 |
+
+#### 学业类（来源 #CASE-001 第二轮 + #CASE-003 浙大学霸）
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| R-001-ADD-04 | 大学校园活跃 / 学生会领导 = 伤官 + 阳制阴 + 双华盖 + 文昌 | `案例库/案例001_乙丑庚辰己丑庚午_男命公务员.md` 二轮反馈学业节 | `cases/academic.md` + `modules/module-b-geju.md` §B.6 取象 |
+| R-001-ADD-05 | 青少年期兴趣偏向（体育 / 武术）= 伤官旺 + 无食神 + 火土厚 + 双华盖 + 比劫青年运 | 同上 | `cases/academic.md` + `modules/module-b-geju.md` + `modules/module-c-yunqi.md` |
+| R-001-ADD-06 / REVISE-002 | 印藏不透 + 劫财大运 → 应期归劫财类（兴趣分流），非印类（学业 / 任命）| 同上 跨模块冲突 #2 | `modules/module-c-yunqi.md` §C.3.2 + `rule-conflicts.md` 跨模块冲突 #2 |
+| R-001-ACADEMIC-04 | 高考波折（年份 ±1） = 文昌空亡 + 十恶大败 + 杀轻伤重 | `案例库/案例001_乙丑庚辰己丑庚午_男命公务员.md` 二轮反馈学业节 | `cases/academic.md` + `modules/module-b-geju.md` §B.6.2 |
+| R-002-ADD-01 | 双印透干夹日主 + 食伤暗藏 + 多贵人 + 词馆 = 隐形顶级学霸结构 | `案例库/案例003_庚辰乙酉丙申乙未_乾命浙大学业.md` 论断节 | `cases/academic.md` + `modules/module-b-geju.md` §B.6.4 顶级学霸隐形结构识别 |
+| R-002-ADD-02 | 食神透干年 + 日主墓库填实 + 大运劫帮 = 学业能力爆发兑现年 | 同上 兑现年节 | `cases/academic.md` + `modules/module-c-yunqi.md` §C.3.4 |
+| R-002-ADD-03 | 三合拱印局大运应期权重 ≥ 单字透印 | 同上 拱印节 | `cases/academic.md` + `modules/module-c-yunqi.md` §C.3.3 |
+| R-002-ADD-04 | 贪财坏印在劫财大运中可被中和（劫财制财保印） | 同上 动态格局节 | `cases/academic.md` + `modules/module-b-geju.md` §B.7.1 |
+| R-002-REVISE-001 | 文昌空亡分流：印强护卫 = 学问超脱型（不扣分）；印弱无护 = 学业波折型（扣分）| 同上 vs `案例库/案例001_*.md` | `modules/module-b-geju.md` §B.6.2.1 + `rule-conflicts.md` 争议 #3 |
+| R-002-REVISE-002 | 学历七级细分（v6.0.4 升级 B.6.1）：★★★★★+ 清北 / C9 → ★★★★★ 普通 985 → ... → ◯ 专科 | 同上 顶级学霸节 | `modules/module-b-geju.md` §B.6.1 |
+
+### §S.1.7 元规律类（v6.1.0 / FEAT-006 写入 · 与 cases-index 元规律类双向同步）
+
+> 元规律 = 关于"如何写规律 / 如何入库 / 如何反幻觉"的规律。本节与 `blind-bazi-cases-index.md §三规律分数板·元规律类` 双向同步，由 FEAT-006 一致性自检阶段写入。
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| META-RULE-01 | 来源原文佐证铁律：任何规律必须有 ≥ 1 条来源 md 文件 + 章节锚点 + 关键词三元组，禁止『凭印象编造高德臣讲义』（防『丑申合』伪规律扩散教训重演）| `META/ingestion-protocol.md` §I.5 第 1 条 + `rule-conflicts.md` 系统性盲区 #2 / #4 | `META/source-trace.md` §S.1 全表 + `blind-bazi-cases-index.md` §三元规律类 |
+| META-RULE-02 | 双向同步铁律：任何规律入库时必须同时更新 cases-index 规律分数板（按案例视角）与 source-trace 三元组（按来源文档视角），任改一边不动另一边即视为不一致 | `META/ingestion-protocol.md` §I.4 闭环对接 + `blind-bazi-cases-index.md` 顶部双向同步说明 | 全仓 grep 校验脚本（FEAT-006 verification 第 2/3 条） |
+| META-RULE-03 | 覆盖度自检铁律：每次 Skill 加载执行启动自检（§0），扫描根目录 + 案例库 md 与 module-coverage-matrix §M.1 主表做 diff，发现『新增 / 修改 / 未入库』即追加告警，但不阻塞问命 —— 等用户授权才走五阶段 | `blind-bazi-analyst.md` §0 + `META/module-coverage-matrix.md` §M.1 + `META/ingestion-protocol.md` §I.0 / §I.1.1 | 启动自检 4 步（每次加载执行）|
+
+### §S.1.8 案例 002 系列规律 · cases-index 完整对账补充（FEAT-006 写入 · 把 §S.1.4 已记录但 cases-index 显式列出的 R-002-VERIFY-01 + COMPAT-06/07/08/09 + FUYIN-04 显式登记三元组）
+
+> 这一节是为了让 source-trace 与 cases-index 规律分数板的『婚姻 + 合婚 + 子女/伏吟』三类规律行数完全对得上（FEAT-006 acceptance #d 一致性自检要求差异 ≤ 5%）。
+
+| 编号 | 规律名称 | 来源 md / 章节 / 关键词 | 当前模块 / 章节号 |
+|---|---|---|---|
+| R-002-VERIFY-01 | 身宫 = 对方胎元干支全同 = 命定型同步婚（一度验证 002 补 + 二度验证 002 深 → 1.2/2.4） | `案例库/案例002_合婚补充_验证修正_2026-05-14.md` §四（首验）+ `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 第一卷 §2.1（二度） | `modules/module-d-hehun.md` §D.3 三垣呼应 + `cases/compatibility.md` 顶部 #CASE-002 系列规律集成表 |
+| R-002-COMPAT-06 | 双方同走某地支大运 = 共振婚育期 ×1.3 | `案例库/案例002_婚育时间线完整应验_2026-05-16.md` 二 §2.1（双方丑运共振 2018 领证）| `modules/module-c-yunqi.md` §C.3.5.3（同序共振子规律） |
+| R-002-COMPAT-07 | 食伤库（丑）开 = 古法出嫁意象 | `案例库/案例002_婚育时间线完整应验_2026-05-16.md` 三 §3.7 + `案例库/案例002_错误修正与子女八字呼应铁证_2026-05-16.md` 第二卷 | `modules/module-c-yunqi.md` §C.3.8.3 |
+| R-002-COMPAT-08 | 男命卯戌合 = 正官归夫宫 = 妻在他命里有位（事业荣誉归家） | `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 第二卷论断四 §4.2-4.3 | `modules/module-b-geju.md` §B.8 触发件 #3 + `modules/module-d-hehun.md` §D.6 保障 ② |
+| R-002-COMPAT-09 | 双方夫宫同时被冲刑（如 2033 癸丑双冲 / 双刑） = 重大决策避坑年 | `案例库/案例002_夫妻合婚深度分析_2026-05-16.md` 第一卷 Step 7 流年共振推演 | `modules/module-c-yunqi.md` §C.2 风险年 + `modules/module-d-hehun.md` §D.7 风险窗 |
+| R-002-FUYIN-04 | 子女年柱 = 母命大运干支 = 子承母运（长子辛丑年柱 = 母命辛丑大运）| `案例库/案例002_错误修正与子女八字呼应铁证_2026-05-16.md` 第三卷长子四重铁证 §3.4 | `modules/module-b-geju.md` §B.9 机制 #4 |
+
+---
+
+## §S.2 验证示例（演示从规律编号反查到来源 + 当前位置的全链路）
+
+> 演示编号：**R-002-COMPAT-01**（男命月令咸池 + 魁罡日 + 卯戌合归夫宫 + 金舆嫁贵 + 已婚态前提 = 结构性桃花伴生但不破婚 4 重保障）
+
+### Step 1 · 在本表 §S.1.4 反查到三元组
+
+```
+编号：R-002-COMPAT-01
+来源 md：案例库/案例002_夫妻合婚深度分析_2026-05-16.md
+来源段落锚点：论断三
+当前模块 / 章节号：modules/module-b-geju.md §B.8（FEAT-003 写入） + modules/module-d-hehun.md §D.6
+```
+
+### Step 2 · 验证『来源』可 grep 命中
+
+```
+$ grep -n '论断三' 案例库/案例002_夫妻合婚深度分析_2026-05-16.md
+$ grep -n '咸池.*魁罡\|卯戌合归夫宫\|结构性桃花' 案例库/案例002_夫妻合婚深度分析_2026-05-16.md
+预期输出：相关原文段落 → 锚点验证通过
+```
+
+### Step 3 · 验证『当前位置』可 grep 命中
+
+```
+$ grep -n 'B\.8\|结构性桃花不破婚\|R-002-COMPAT-01' .kiro/skills/modules/module-b-geju.md
+$ grep -n 'D\.6\|桃花归宫不破婚' .kiro/skills/modules/module-d-hehun.md
+预期输出：B.8 章节标题 + D.6 章节标题 + 编号引用 → 当前位置验证通过
+```
+
+### Step 4 · 与 cases-index 双向同步校验
+
+```
+$ grep -n 'R-002-COMPAT-01\|结构性桃花' .kiro/skills/blind-bazi-cases-index.md .kiro/skills/cases/compatibility.md
+预期输出：cases-index 合婚类规律分数板有该行 + cases/compatibility.md 顶部 #CASE-002 系列规律集成表有该行
+```
+
+### Step 5 · 与 module-coverage-matrix 校验
+
+```
+$ grep -n '案例库/案例002_夫妻合婚深度分析' .kiro/skills/META/module-coverage-matrix.md
+预期输出：矩阵中该行的 D 列 / 合 列 单元格状态为 ◐（部分吸收）或 ☑（已吸收）
+```
+
+> 五步全部通过 → 三元组**完整闭环** → 该规律可以在 Skill 任何场景被复用 / 校验 / 追溯。
+
+---
+
+## §S.3 自动化策略（重建 source-trace 的方法）
+
+> 当 `META/source-trace.md` 与主模块文件之间出现不一致（例如人工修改主模块未同步本表）时，按以下三步**自动重建**：
+
+### Step 1 · grep 全模块的『来源：』标注
+
+```
+grep -nE '来源[：:]|^>.*来源' .kiro/skills/modules/*.md .kiro/skills/cases/*.md
+```
+
+输出格式：
+
+```
+.kiro/skills/modules/module-c-yunqi.md:382:来源：盲派命理AI分析师提示词_v2.0.md 第三部分补丁 A...
+.kiro/skills/modules/module-a-paipan.md:283:来源：盲派命理AI分析师提示词_v2.0.md 第三部分补丁 B...
+```
+
+### Step 2 · 与 INDEX 案例文件名 + 根目录提示词文件名做交叉校验
+
+```
+ls 案例库/*.md   # 列出全部案例 md 文件名
+ls *.md          # 列出根目录全部 md 文件名
+```
+
+把 grep 结果中的『来源：…』字段与 ls 结果做**字符串包含**校验：
+
+| 校验情形 | 处理动作 |
+|---|---|
+| 来源文件存在 + grep 命中 | ✅ 三元组对得上，继续 |
+| 来源文件存在 + grep 未命中关键词 | 🔴 来源段落锚点漂移，更新本表的来源段落锚点 |
+| 来源文件不存在 | 🔴 来源 md 已被删除 / 重命名 → 必须修正本表或暂停规律 |
+| 当前模块文件不存在该章节号 | 🔴 主模块改名 / 章节移位 → 必须更新本表当前位置 |
+
+### Step 3 · 输出差异表
+
+| 三元组 | source 漂移？ | 当前位置漂移？ | 处理 |
+|---|---|---|---|
+| R-002-COMPAT-01 | 否 | 否 | 无操作 |
+| R-001-CAREER-06 | 否 | 是（章节号变） | 更新本表当前位置栏 |
+| ... | ... | ... | ... |
+
+差异表非空 → 触发 ingestion-protocol §I.1.5 阶段 5 同步流程，把差异修复后**一次性**写入主模块 + cases / cases-index + 本表 + matrix。
+
+---
+
+## §S.4 不变量（格言区）
+
+> *"三元组少一栏 = 入库未完成。"*
+> *"来源不在本仓库 = 不入库（防止凭空捏造）。"*
+> *"当前位置必须可 grep —— 不能只在脑子里。"*
+> *"本表与 cases-index 双向同步，缺一则告警。"*
+
+---
+
+*本表由 blind-bazi-analyst skill META 层维护。*
+*版本：v1.0 | 首发：2026-05-18 | FEAT-005 创建 | 与主 Skill v6.1.0 协同。*
