@@ -606,6 +606,25 @@
 | 2026-05-19 | **GP-DY-13** | (a) v6.1.7 阶段 5 晋级 · 已写入主模块（batch5）| `modules/module-c-yunqi.md` §C.2.8 大运合冲 4 效应 · 🟡 0.8/2.4 |
 | 2026-05-19 | **GP-DY-12** | (a) v6.1.7 阶段 5 晋级 · 已写入主模块（batch5）| `modules/module-c-yunqi.md` §C.3.11 吉凶到位引发 4 种 · 🟢 1.2/2.4 |
 | 2026-05-19 | **GP-CH-20** | (a) v6.1.7 阶段 5 晋级 · 已写入主模块（batch5）| `modules/module-d-hehun.md` §D.10 婚姻早晚核心铁律 |
+| 2026-05-19 | **GP-LF-07** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.1 一 · 八字三大关系学 |
+| 2026-05-19 | **GP-LF-08** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.1 二 · 破译八字两步法 |
+| 2026-05-19 | **GP-LF-09** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.1 三 · 横竖关系审视 4 步 |
+| 2026-05-19 | **GP-LF-10** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.0 三大支柱总纲 |
+| 2026-05-19 | **GP-LF-11** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.1 四 · 体用别名映射 |
+| 2026-05-19 | **GP-LF-12** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.1 五 · 我宫他宫定义铁律 |
+| 2026-05-19 | **GP-LF-15** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主入口 | `blind-bazi-analyst.md` §M8.1 六 · 三点一线两项定一项 |
+| 2026-05-19 | **GP-XF-03** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-F 类象多重性三条 |
+| 2026-05-19 | **GP-XF-05** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-G 整体取像三态 |
+| 2026-05-19 | **GP-XF-09** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2.11 暗合三种形式 |
+| 2026-05-19 | **GP-XF-11** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2.12 穿害六组取像 |
+| 2026-05-19 | **GP-XF-13** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2.13 地支相破六组 |
+| 2026-05-19 | **GP-XF-15** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2.13 绝四组 |
+| 2026-05-19 | **GP-XF-16** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2.14 人像物像区分铁律 |
+| 2026-05-19 | **GP-XF-17** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.1 阴阳成对取像总纲 |
+| 2026-05-19 | **GP-XF-19** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.2 四正取像总览 |
+| 2026-05-19 | **GP-XF-20** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.2 四长生取像总览 |
+| 2026-05-19 | **GP-XF-21** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.2 四库取像总览 |
+| 2026-05-19 | **GP-XF-24** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-H 宫位吉凶四柱判定 |
 
 > **本队列建于 2026-05-18，v6.1.3（2026-05-19）首次执行阶段 5 晋级**：
 > - 4 条高派候选（GP-LF-13 ⭐ / GP-LF-14 ⭐⭐ / GP-SS-07 ⭐ / GP-SS-14 ⭐）由 0.6/2.4 状态晋级 → 主模块（FEAT-GP1）
@@ -641,7 +660,7 @@
 > - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
 > - **本轮特殊性**：在单文件版（PR #34）和模块化版（PR 本次）双写入，确保两套体系内容一致
 > - 案例 003 验证支撑（PR #35）：GP-XF-14 / GP-DY-12 铁证升🟢，GP-DY-06 / GP-DY-13 反向验证升至 0.8
-> - **累计已晋级 30 条**（v6.1.3×4 + v6.1.4×4 + v6.1.5×10 + v6.1.6×6 + v6.1.7×6）
+> - **累计已晋级 49 条**（v6.1.3×4 + v6.1.4×4 + v6.1.5×10 + v6.1.6×6 + v6.1.7×6 + v7.0-P1×19）
 >
 > **第 6 轮《车祸婚姻篇》+《车祸篇》合并入库（2026-05-19）**：
 > - 35 条高派候选（GP-CH-01 ~ 35）入库 P0 区
