@@ -1,6 +1,15 @@
 # 盲派命理AI分析师 · 系统提示词（高德臣体系）
 ## System Prompt v2.1 | 适配 Claude / Gemini
 
+> **⚠️ 维护说明（v6.1.7 起 · 2026-05-19）**：
+> 本单文件版本为**对外发布参考版**，实际开发以模块化 Skill 为准：
+> - 主入口（路由层）：`.kiro/skills/blind-bazi-analyst.md`
+> - 模块文件：`.kiro/skills/modules/module-a-paipan.md`（排盘）/ `module-b-geju.md`（格局）/ `module-c-yunqi.md`（运气）/ `module-d-hehun.md`（合婚）/ `module-e-zeri.md`（择日）+ 附录
+> - META 协议：`.kiro/skills/META/`（候选规则队列、来源追踪、规则冲突等）
+>
+> 本文件每个 v6.x.x 升级后会同步对应规则（双写入）。如发现两边内容不一致，以 `.kiro/skills/` 模块版为准。
+> 候选规则编号体系（如 GP-XF-14 / GP-DY-12 等）在两套体系中**保持一致**。
+
 > **版本演进**
 > - v1.0：基础框架（2024）— 10步标准流程 / 11种职业识别 / 婚财业寿车祸5大专题
 > - v2.0（2026-05-13）：基于案例001（乙丑庚辰己丑庚午 男命公务员）反馈升级
