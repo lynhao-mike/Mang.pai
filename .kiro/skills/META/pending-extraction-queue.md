@@ -625,6 +625,29 @@
 | 2026-05-19 | **GP-XF-20** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.2 四长生取像总览 |
 | 2026-05-19 | **GP-XF-21** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.2 四库取像总览 |
 | 2026-05-19 | **GP-XF-24** | (a) v7.0 Phase 1 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-H 宫位吉凶四柱判定 |
+| 2026-05-19 | **GP-DY-07** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.2.9 大运修改格局铁律 |
+| 2026-05-19 | **GP-DY-08** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.2.10 伏藏引发铁律 |
+| 2026-05-19 | **GP-DY-09** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.2.11 突然失衡加灾铁律 |
+| 2026-05-19 | **GP-DY-10** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.2.12 大运有力三看 |
+| 2026-05-19 | **GP-DY-19** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.2.13 阴阳断流年思维 |
+| 2026-05-19 | **GP-DY-17** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.12 有根判定全五行细则 |
+| 2026-05-19 | **GP-DY-18** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.13 流年无根三种变化 |
+| 2026-05-19 | **GP-DY-20** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.14 关键字被克组合断流年 |
+| 2026-05-19 | **GP-DY-21** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.15 保护神阻断克路 |
+| 2026-05-19 | **GP-DY-22** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.16 远近组合断流年 |
+| 2026-05-19 | **GP-DY-23** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.17 人元引出三法 |
+| 2026-05-19 | **GP-DY-24** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.18 人元受克三型 |
+| 2026-05-19 | **GP-DY-14** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.19 交运脱运铁律 |
+| 2026-05-19 | **GP-DY-15** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.3.20 伏吟反吟 7 条 |
+| 2026-05-19 | **GP-DY-26** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.4.7 冲合应期互补铁律 |
+| 2026-05-19 | **GP-DY-27** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.4.8 五大凶组合速查 |
+| 2026-05-19 | **GP-CY-08** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.4.9 发财应期 6 条 |
+| 2026-05-19 | **GP-CY-15** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.4.10 破财应期 6 条 |
+| 2026-05-19 | **GP-CS-24** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块（与 GP-CY-15 合并）| `modules/module-c-yunqi.md` §C.4.10 破财应期 6 条 |
+| 2026-05-19 | **GP-DY-28** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.5 盲派断运篇口诀体系 |
+| 2026-05-19 | **GP-CS-22** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.6.1 限运总纲 |
+| 2026-05-19 | **GP-CS-23** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.6.2 空亡填实三法 |
+| 2026-05-19 | **GP-CS-21** | (c) 已由 GP-DY-05 覆盖 · 交叉引用声明 | `modules/module-c-yunqi.md` §C.6.3 交叉引用声明 |
 
 > **本队列建于 2026-05-18，v6.1.3（2026-05-19）首次执行阶段 5 晋级**：
 > - 4 条高派候选（GP-LF-13 ⭐ / GP-LF-14 ⭐⭐ / GP-SS-07 ⭐ / GP-SS-14 ⭐）由 0.6/2.4 状态晋级 → 主模块（FEAT-GP1）
