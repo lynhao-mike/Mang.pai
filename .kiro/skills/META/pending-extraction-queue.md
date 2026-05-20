@@ -648,6 +648,26 @@
 | 2026-05-19 | **GP-CS-22** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.6.1 限运总纲 |
 | 2026-05-19 | **GP-CS-23** | (a) v7.0 Phase 2 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.6.2 空亡填实三法 |
 | 2026-05-19 | **GP-CS-21** | (c) 已由 GP-DY-05 覆盖 · 交叉引用声明 | `modules/module-c-yunqi.md` §C.6.3 交叉引用声明 |
+| 2026-05-20 | **GP-CH-15** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.12 婚姻星宫感应铁律 |
+| 2026-05-20 | **GP-CH-16** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.13 配偶相貌断法 |
+| 2026-05-20 | **GP-CH-17** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.14 配偶年龄差判断 |
+| 2026-05-20 | **GP-CH-18** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.15 配偶距离远近铁律 |
+| 2026-05-20 | **GP-CH-19** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.16 盲派配偶方向诀 |
+| 2026-05-20 | **GP-CH-21** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.17 动婚诀与婚期确定四法 |
+| 2026-05-20 | **GP-CH-22** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.18 事实婚姻定义 |
+| 2026-05-20 | **GP-CH-23** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.19 好婚姻六条组合铁律 |
+| 2026-05-20 | **GP-CH-24** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.20 差婚姻五条命理体现 |
+| 2026-05-20 | **GP-CH-25** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.21 离婚六条+日坐刃地暗克 |
+| 2026-05-20 | **GP-CH-26** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.22 多婚六条命理组合 |
+| 2026-05-20 | **GP-CH-27** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.23 盲师二婚三婚歌诀 |
+| 2026-05-20 | **GP-CH-28** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.21.3 复婚三条规律 |
+| 2026-05-20 | **GP-CH-29** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.24 独身命四种类型 |
+| 2026-05-20 | **GP-CH-30** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.25 招婿入赘规律 |
+| 2026-05-20 | **GP-CH-31** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.26 招外遇六类规律 |
+| 2026-05-20 | **GP-CH-32** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.27 看配偶外遇规律 |
+| 2026-05-20 | **GP-CH-33** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.28 合婚五步归纳法 |
+| 2026-05-20 | **GP-CH-34** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.29 离婚vs丧偶判断铁律 |
+| 2026-05-20 | **GP-CH-35** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.30 二奶命五种组合 |
 
 > **本队列建于 2026-05-18，v6.1.3（2026-05-19）首次执行阶段 5 晋级**：
 > - 4 条高派候选（GP-LF-13 ⭐ / GP-LF-14 ⭐⭐ / GP-SS-07 ⭐ / GP-SS-14 ⭐）由 0.6/2.4 状态晋级 → 主模块（FEAT-GP1）
@@ -700,6 +720,14 @@
 > - 主对接模块：B（财运方法论 18 条）+ C（大运/限运/应期 8 条）+ 职（断职业体系 12 条）
 > - 无高风险条目（本篇不涉及寿限类）
 > - 累计候选总数：180 + 38 = **218 条仍在 P0 待审池**
+>
+> **v7.0 Phase 3（2026-05-20）模块 D 婚姻大升级 · 21 条晋级**：
+> - 21 条高派婚姻候选（GP-CH-15~19, 21~35）晋级写入 `modules/module-d-hehun.md` §D.12~§D.30
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+> - 高风险 GP-CH-12/13/14（寿限死期类）严格跳过，留候选池
+> - GP-CH-20 已于 v6.1.7 batch5 晋级（§D.10），不重复出队
+> - **累计已晋级 91 条**（v6.1.3×4 + v6.1.4×4 + v6.1.5×10 + v6.1.6×6 + v6.1.7×6 + v7.0-P1×19 + v7.0-P2×21 + v7.0-P3×21）
+> - 剩余候选：261 - 91 = **170 条仍在 P0 待审池**
 
 ### §P.2.1.9 P0-9 GP-CS 系列详细子条目（38 条 · 2026-05-19 第 9 轮阶段 4 入库）
 
