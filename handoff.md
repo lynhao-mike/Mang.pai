@@ -1,10 +1,10 @@
-# 会话交接文档（Handoff · 2026-05-19 · v4）
+# 会话交接文档（Handoff · 2026-05-20 · v5）
 
-> **生成时间**：2026-05-19（第四版 · v7.0 Phase 1+2 全部完成后更新）
-> **当前 Skill 版本**：v6.1.7（主入口路由层版本号）+ v7.0 Phase 1+2（已写入主模块）
-> **当前 main commit**：`91a9735`（v7.0 Phase 2: 模块C大运流年体系化重写 · 21条晋级）
+> **生成时间**：2026-05-20（第五版 · v7.0 Phase 3 完成后更新）
+> **当前 Skill 版本**：v6.1.7（主入口路由层版本号）+ v7.0 Phase 1+2+3（已写入主模块）
+> **当前 main commit**：`64ec4c3`（v7.0 Phase 3: 模块D婚姻大升级 · 21条GP-CH晋级）
 > **粘贴位置**：直接发给新会话的 Kiro，让它读 `handoff.md` 后续推
-> **✅ 并行解除**：v7.0 Phase 1+2 已全部 push 到 main，本 session 可自由改动所有文件
+> **✅ 并行解除**：v7.0 Phase 1+2+3 已全部 push 到 main，本 session 可自由改动所有文件
 
 ---
 
@@ -13,7 +13,7 @@
 将仓库 `高派命理理论知识库/` 下的 **10 份高派盲派命理理论 md**（高德臣 2018 弟子班讲义 + 提高班讲义 + 神煞应用宝典），按 `.kiro/skills/META/ingestion-protocol.md` 五阶段协议**逐份提取入库**。
 
 **🎉 阶段 3+4（提取 + 候选入库）已于 2026-05-19 全部完成。**
-**🚀 阶段 5 已晋级 70/261 条（5 微补批次 30 条 + v7.0 P1 19 条 + v7.0 P2 21 条）。**
+**🚀 阶段 5 已晋级 91/261 条（5 微补批次 30 条 + v7.0 P1 19 条 + v7.0 P2 21 条 + v7.0 P3 21 条）。**
 
 ---
 
@@ -35,7 +35,7 @@
 
 **候选总数：261 条**
 
-### ✅ 阶段 5 晋级：累计已完成 70 条
+### ✅ 阶段 5 晋级：累计已完成 91 条
 
 | 批次 | 版本 | 条数 | 晋级编号 |
 |---|---|---|---|
@@ -44,39 +44,19 @@
 | 第 3 批 | v6.1.5 | 10 | GP-BD-01/07/09/13 + GP-DY-01/02/03/16 + GP-CY-04 + GP-CS-01 |
 | 第 4 批 | v6.1.6 | 6 | GP-DY-05/11/25 + GP-CY-01 + GP-XF-08/10 |
 | 第 5 批 | v6.1.7 | 6 | GP-XF-14 + GP-CY-09 + GP-DY-06/13/12 + GP-CH-20 |
-| **v7.0 Phase 1** | v7.0 | **19** | GP-LF-07~12/15 + GP-XF-03/05/09/11/13/15/16/17/19/20/21/24（M8 骨架 + 取象附录补全 + 模块A地支关系）|
-| **v7.0 Phase 2** | v7.0 | **21** | GP-DY-07/08/09/10/14/15/17/18/19/20/21/22/23/24/26/27/28 + GP-CS-22/23/24 + GP-CY-08/15（模块C大运流年体系化重写）|
+| **v7.0 Phase 1** | v7.0 | **19** | GP-LF-07~12/15 + GP-XF-03/05/09/11/13/15/16/17/19/20/21/24 |
+| **v7.0 Phase 2** | v7.0 | **21** | GP-DY-07~10/14/15/17~24/26~28 + GP-CS-21~24 + GP-CY-08/15 |
+| **v7.0 Phase 3** | v7.0 | **21** | GP-CH-15~19/21~35（模块D婚姻大升级 §D.12~§D.31）|
 
-**累计已晋级 70 条 · 剩余候选池 191 条**
-
-### ✅ 案例 004 归档（v6.1.7 · 已完成）
-
-| 任务 | 写入位置 | 状态 |
-|---|---|---|
-| §B.2.2 月令优先取格硬约束（R-004-REVISE-07 协议级）| module-b-geju.md | ✅ |
-| §D.11 业务搭档双盘协同分析（5重磁场+火护神+7步同序+配合时长+边界管理）| module-d-hehun.md | ✅ |
-| §B.8.7 夫宫/夫星/十神三分判自检（R-004-REVISE-09 协议级）| module-b-geju.md | ✅ |
-| META source-trace §S.1.15 案例004全量三元组 | META/source-trace.md | ✅ |
-| 主入口 v6.1.7 版本号 + 版本日志 + 路由表业务搭档触发行 | blind-bazi-analyst.md | ✅ |
-
-### ✅ 案例 003 batch5 验证报告（已沉淀，待回写评分）
-
-`案例库/案例003_batch5规则验证_2026-05-19.md` 已生成，验证结论：
-- **GP-DY-12（填实即验）**：★★★★★ 铁证 → 建议 0.6→1.2
-- **GP-XF-14（入墓5条件+冲开）**：★★★★★ 铁证 → 建议 0.6→1.2
-- **GP-DY-06（引发忌神5条）**：★★★★ 反向验证 → 建议 0.6→0.8
-- **GP-DY-13（大运合冲4效应）**：★★★★ 正面验证 → 建议 0.6→0.8
-
-> 评分回写到 `pending-extraction-queue.md` 待 v7.0 Phase 3 一并处理。
+**累计已晋级 91 条 · 剩余候选池 170 条**
 
 ### 最近重要 commit（按时间倒序）
 
 ```
-91a9735 v7.0 Phase 2: 模块C大运流年体系化重写 · 21条晋级（当前 HEAD）
-9c4ec62 docs: handoff.md v3 — 案例004归档+v7.0并行状态+git流程改直推
-e4fcbf7 feat(v6.1.7): 案例004归档 — 月令优先取格/业务搭档双盘/三分判自检/META登记
+64ec4c3 feat(v7.0-P3): 模块D婚姻大升级 · 21条GP-CH晋级 · §D.12~D.30 + 五件套同步
+2eecb6f docs: handoff.md v4 — v7.0 Phase 1+2 全部完成 + 70 条已晋级
+91a9735 v7.0 Phase 2: 模块C大运流年体系化重写 · 21条晋级
 51b9081 feat(skill): v7.0 Phase 1 — M8 高派批命模式骨架 + 取象附录补全 + 模块A地支关系（19条晋级）
-8e16066 feat(案例004): 归档坤命1984业务搭档双盘协同 + 模块A精度修正
 ```
 
 ---
@@ -85,30 +65,32 @@ e4fcbf7 feat(v6.1.7): 案例004归档 — 月令优先取格/业务搭档双盘/
 
 | 文件 | 说明 | 最新状态 |
 |---|---|---|
-| `META/pending-extraction-queue.md` | 候选规律队列 | 261 条全量入库 + §P.4 出队记录 70 条（含 v7.0 P1+P2 共 40 条）|
-| `META/source-trace.md` | 来源追溯三元组 | §S.1.1~§S.1.19（含 v7.0 P2 §S.1.19 新增 21 条）|
-| `META/module-coverage-matrix.md` | 模块覆盖度矩阵 | 10 份 md 全部 🟢 阶段 3+4 完成；模块 C 已升格为含 v7.0 P2 |
+| `META/pending-extraction-queue.md` | 候选规律队列 | 261 条全量入库 + §P.4 出队记录 91 条（含 v7.0 P3 21 条）|
+| `META/source-trace.md` | 来源追溯三元组 | §S.1.1~§S.1.20（含 v7.0 P3 §S.1.20 新增 21 条）|
+| `META/module-coverage-matrix.md` | 模块覆盖度矩阵 | 车祸婚姻篇已升格 ◉（v7.0 P3 婚姻部分全覆盖）|
 | `META/extracted/` | 提取报告（10 份）| 全部生成 |
-| `blind-bazi-cases-index.md` | 案例索引 + 规律分数板 | 70 条已晋级行已标注 |
+| `blind-bazi-cases-index.md` | 案例索引 + 规律分数板 | 91 条已晋级行已标注 |
 
 ---
 
-## 四、下一步行动（v7.0 Phase 3 候选方向）
+## 四、下一步行动（v7.0 Phase 4+ 候选方向）
 
 ### 🎯 已完成
 
 - ✅ Phase 1：M8 高派批命模式骨架 + 取象附录补全 + 模块 A 地支关系（19 条）
 - ✅ Phase 2：模块 C 大运流年体系化重写（21 条 GP-DY/CS/CY）
+- ✅ Phase 3：模块 D 婚姻大升级（21 条 GP-CH · §D.12~§D.31）
 
-### 🔥 Phase 3 候选方向（按候选数量优先）
+### 🔥 Phase 4+ 候选方向（按候选数量优先）
 
 | # | 方向 | 涉及模块 | 候选规律来源 | 推荐度 |
 |---|---|---|---|---|
-| **A** | **模块 D 婚姻大升级** | `module-d-hehun.md` §D.12+ | GP-CH 婚姻类 21 条（GP-CH-15~33）| ⭐⭐⭐⭐⭐（候选最多 + 与 §D.11 业务搭档形成完整婚姻体系）|
-| B | 模块 B 财运专题扩展 | `module-b-geju.md` §B.4.8+ | GP-CY 剩余 14 条 + GP-CS 财运类 8 条 | ⭐⭐⭐⭐ |
-| C | 职业附录体系化 | `appendix-zhiye.md` §Z.1+ | GP-CS 断职业 12 条 | ⭐⭐⭐ |
+| **A** | **模块 B 财运专题扩展** | `module-b-geju.md` §B.4.8+ | GP-CY 剩余 14 条 + GP-CS 财运类 8 条 | ⭐⭐⭐⭐⭐ |
+| B | 职业附录体系化 | `appendix-zhiye.md` §Z.1+ | GP-CS 断职业 12 条 | ⭐⭐⭐⭐ |
+| C | 模块 A 神煞专题扩展 | `module-a-paipan.md` §A.1.4+ | GP-SS 剩余 24 条 + GP-BD 剩余 31 条 | ⭐⭐⭐ |
 | D | 模块 E 择日升级 | `module-e-zeri.md` | GP-MG 择日 6 条 | ⭐⭐ |
-| E | 模块 A 神煞专题扩展 | `module-a-paipan.md` §A.1.4+ | GP-SS 剩余 24 条（除已晋级的 07/14）+ GP-BD 剩余 31 条 | ⭐⭐⭐ |
+| E | 车祸/伤残/寿限灾厄类 | 新建 module-f 或扩展 C | GP-CH-01~11（14 条）| ⭐⭐⭐ |
+| F | 案例验证 + 评分回写 | 案例003 batch5验证报告 | GP-DY-12/14/06/13 评分升级 | ⭐⭐⭐ |
 
 ### 高风险铁律（严禁未验证晋级）
 
@@ -130,7 +112,7 @@ e4fcbf7 feat(v6.1.7): 案例004归档 — 月令优先取格/业务搭档双盘/
 阶段 2 分类  —— ✅ 全部归"理论提示词分支 A"
 阶段 3 提取  —— ✅ 10 份提取报告全部生成（261 条候选）
 阶段 4 入候选库 —— ✅ 261 条全部写入 pending-extraction-queue.md
-阶段 5 晋级  —— 🔥 已完成 70 条 · 剩余 191 条等案例验证 / Phase 3 重构
+阶段 5 晋级  —— 🔥 已完成 91 条 · 剩余 170 条等案例验证 / Phase 4+ 重构
 ```
 
 ### 反幻觉硬约束（不变量）
@@ -145,15 +127,16 @@ e4fcbf7 feat(v6.1.7): 案例004归档 — 月令优先取格/业务搭档双盘/
 
 | 前缀 | 来源 | 总数 | 已晋级 | 剩余 |
 |---|---|---|---|---|
-| GP-LF | 理法篇 | 23 | 9（07~15）| 14 |
-| GP-SS | 神煞篇 | 26 | 2（07/14）| 24 |
+| GP-LF | 理法篇 | 23 | 9 | 14 |
+| GP-SS | 神煞篇 | 26 | 2 | 24 |
 | GP-XF | 象法篇 | 24 | 14 | 10 |
-| GP-DY | 大运流年篇 | 28 | 21 | 7 |
+| GP-DY | 大运流年篇 | 28 | 22 | 6 |
 | GP-CY | 财运篇 | 22 | 5 | 17 |
-| GP-CH | 车祸婚姻篇 | 35 | 1（20）| 34 |
+| GP-CH | 车祸婚姻篇 | 35 | 22（含20→D.10+21→D.12~31） | 13 |
 | GP-MG | 命宫长生诀择日篇 | 30 | 0 | 30 |
 | GP-CS | 财运事业断法提高班 | 38 | 4 | 34 |
 | GP-BD | 盲派神煞应用宝典 | 35 | 4 | 31 |
+| **合计** | — | **261** | **91** | **170** |
 
 ---
 
@@ -179,9 +162,7 @@ e4fcbf7 feat(v6.1.7): 案例004归档 — 月令优先取格/业务搭档双盘/
 工作目录：/projects/sandbox/Mang.pai/
 仓库：lynhao-mike/Mang.pai
 网络模式：INTEGRATIONS_ONLY（不能 pip install / curl 外网）
-PDF OCR：无（已由外部 MinerU 解决，10 份 md 已上传）
 git 操作：用 mcp_sandbox_github_* 工具（push / pull_repository）
-git pull 直接命令会因 auth 失败 → 改用 mcp_sandbox_github_pull_repository
 git push 必须用 mcp_sandbox_github_push_to_remote（不能用 git push 命令）
 ```
 
@@ -189,53 +170,27 @@ git push 必须用 mcp_sandbox_github_push_to_remote（不能用 git push 命令
 
 ## 八、涉及文件速查
 
-### 主模块体系（v6.1.7 + v7.0 P1+P2 当前态）
+### 主模块体系（v6.1.7 + v7.0 P1+P2+P3 当前态）
 
 ```
-.kiro/skills/blind-bazi-analyst.md           # 主入口路由层（v6.1.7 + §M8 高派批命模式 v7.0 新增）
+.kiro/skills/blind-bazi-analyst.md           # 主入口路由层（v6.1.7 + §M8 高派批命模式 v7.0）
 .kiro/skills/modules/module-a-paipan.md      # 排盘（§A.2.7~A.2.14 含高派晋级 + 地支关系补全）
-.kiro/skills/modules/module-b-geju.md        # 格局（§B.2.2 + §B.4.3~B.4.7 + §B.8.7 含高派晋级）
-.kiro/skills/modules/module-c-yunqi.md       # 大运流年（§C.2.4~C.6 含 v7.0 P2 大运流年体系化重写）
-.kiro/skills/modules/module-d-hehun.md       # 合婚（§D.9~D.11 含高派晋级 + 业务搭档双盘）
-.kiro/skills/modules/module-e-zeri.md        # 剖腹产择日（未受 v7.0 影响）
-.kiro/skills/modules/appendix-quxiang.md     # 取象（§Q.1~Q.4 含 v7.0 P1 全面补全）
-.kiro/skills/modules/appendix-zhiye.md       # 职业（未受 v7.0 影响）
+.kiro/skills/modules/module-b-geju.md        # 格局（§B.2.2 + §B.4.3~B.4.7 + §B.8.7）
+.kiro/skills/modules/module-c-yunqi.md       # 大运流年（§C.2.4~C.6 含 v7.0 P2 体系化重写）
+.kiro/skills/modules/module-d-hehun.md       # 合婚（§D.1~D.31 含 v7.0 P3 婚姻大升级 21 条）
+.kiro/skills/modules/module-e-zeri.md        # 剖腹产择日
+.kiro/skills/modules/appendix-quxiang.md     # 取象（§Q.1~Q.4 含 v7.0 P1 补全）
+.kiro/skills/modules/appendix-zhiye.md       # 职业
 ```
 
 ### META 五件套
 
 ```
 .kiro/skills/META/ingestion-protocol.md      # 协议主文档（不改）
-.kiro/skills/META/pending-extraction-queue.md # 候选队列（261 条 + §P.4 出队 70 条）
+.kiro/skills/META/pending-extraction-queue.md # 候选队列（261 条 + §P.4 出队 91 条）
 .kiro/skills/META/module-coverage-matrix.md  # 覆盖度矩阵
-.kiro/skills/META/source-trace.md            # 来源追溯表（§S.1.1~§S.1.19）
-.kiro/skills/blind-bazi-cases-index.md       # 案例索引 + 规律分数板（含 70 条晋级标注）
-```
-
-### 提取报告（10 份）
-
-```
-.kiro/skills/META/extracted/高派_理法篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_神煞篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_象法篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_大运流年篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_财运篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_车祸婚姻篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_命宫长生诀择日篇_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_财运事业断法_候选规律提取_2026-05-19.md
-.kiro/skills/META/extracted/高派_神煞应用宝典_候选规律提取_2026-05-19.md
-```
-
-### 案例库
-
-```
-案例库/INDEX.md                               # 案例索引（CASE-001/002/003/004）
-案例库/案例001_乙丑庚辰己丑庚午_男命公务员.md
-案例库/案例002_*.md                           # 多份（坤命1992 + 合婚补充 + 婚育时间线 + 子女铁证 + 错误修正）
-案例库/案例003_庚辰乙酉丙申乙未_乾命浙大学业.md
-案例库/案例003_第三轮反馈_父母健康铁证_2026-05-18.md
-案例库/案例003_batch5规则验证_2026-05-19.md   # 4 条 v6.1.7 候选验证报告（待回写评分）
-案例库/案例004_甲子丁卯癸卯庚申_坤命_1984_业务搭档双盘协同.md
+.kiro/skills/META/source-trace.md            # 来源追溯表（§S.1.1~§S.1.20）
+.kiro/skills/blind-bazi-cases-index.md       # 案例索引 + 规律分数板（含 91 条晋级标注）
 ```
 
 ---
@@ -243,19 +198,18 @@ git push 必须用 mcp_sandbox_github_push_to_remote（不能用 git push 命令
 ## 九、续推指令模板
 
 ```
-[选 A · 推荐] 启动 v7.0 Phase 3：模块 D 婚姻大升级
-按 GP-CH 婚姻类 21 条候选写入 module-d-hehun.md §D.12+，
-保留 §D.11 业务搭档不动，形成完整婚姻判定体系。
+[选 A · 推荐] 启动 v7.0 Phase 4：模块 B 财运专题扩展
+按 GP-CY/CS 共 22 条候选写入 module-b-geju.md §B.4.8+
 五件套同步 + 直接 push main。
 
-[选 B] v7.0 Phase 3：模块 B 财运专题扩展
-按 GP-CY/CS 共 22 条候选写入 module-b-geju.md §B.4.8+
-
-[选 C] v7.0 Phase 3：职业附录体系化
+[选 B] v7.0 Phase 4：职业附录体系化
 按 GP-CS 断职业 12 条写入 appendix-zhiye.md §Z.1+
 
+[选 C] v7.0 Phase 4：模块 A 神煞专题扩展
+按 GP-SS/BD 剩余 55 条候选写入 module-a-paipan.md
+
 [选 D] 回归验证
-用 CASE-001/002/003/004 跑含 70 条已晋级铁律的 Skill 全量验证
+用 CASE-001/002/003/004 跑含 91 条已晋级铁律的 Skill 全量验证
 
 [选 E] 回写案例003 batch5 验证报告评分
 把 GP-DY-12/14/06/13 四条评分升级写入 pending-extraction-queue.md
@@ -263,13 +217,11 @@ git push 必须用 mcp_sandbox_github_push_to_remote（不能用 git push 命令
 [选 F] 新案例入库
 我有新案例反馈，用来验证候选规律或归档新案例
 
-[选 G] 续做 v6.1.7 收尾任务
-更新 案例库/INDEX.md 加 CASE-004 元信息 +
-calibration-log 登记案例004 的 7 条精度教训 +
-v2.1 单文件同步 §B.2.2/§B.8.7/§D.11
+[选 G] 车祸/伤残/寿限灾厄模块
+按 GP-CH-01~11 共 14 条候选建立灾厄分析框架
 ```
 
 ---
 
-*本交接文档 v4 由 2026-05-19 会话生成，替代 v3。*
-*当前实际进度：10/10 入库完成 · **70 条已晋级**（30 微补 + 19 P1 + 21 P2）· 剩余 191 候选 · v7.0 Phase 1+2 完成 · 等 Phase 3 启动。*
+*本交接文档 v5 由 2026-05-20 会话生成，替代 v4。*
+*当前实际进度：10/10 入库完成 · **91 条已晋级**（30 微补 + 19 P1 + 21 P2 + 21 P3）· 剩余 170 候选 · v7.0 Phase 1+2+3 完成 · 等 Phase 4 启动。*
