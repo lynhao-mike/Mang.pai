@@ -668,6 +668,28 @@
 | 2026-05-20 | **GP-CH-33** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.28 合婚五步归纳法 |
 | 2026-05-20 | **GP-CH-34** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.29 离婚vs丧偶判断铁律 |
 | 2026-05-20 | **GP-CH-35** | (a) v7.0 Phase 3 阶段 5 晋级 · 已写入主模块 | `modules/module-d-hehun.md` §D.30 二奶命五种组合 |
+| 2026-05-20 | **GP-CY-02** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.8 日坐财库 5 日铁律 |
+| 2026-05-20 | **GP-CY-03** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.8 财临库地逢三合 |
+| 2026-05-20 | **GP-CY-05** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.9 盲派通门户六种组合速查 |
+| 2026-05-20 | **GP-CY-06** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.10 有财无财核心判定 |
+| 2026-05-20 | **GP-CY-07** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.10 无财星三种替代 |
+| 2026-05-20 | **GP-CY-10** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.11 巨大中小富瑕疵判定 |
+| 2026-05-20 | **GP-CY-12** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.12 求财四模式 |
+| 2026-05-20 | **GP-CY-13** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.12 四级对应关系 |
+| 2026-05-20 | **GP-CY-14** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.13 穷命七大特征 |
+| 2026-05-20 | **GP-CY-16** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.14 祖产继承与富二代 |
+| 2026-05-20 | **GP-CY-18** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.15 伤官生财格 |
+| 2026-05-20 | **GP-CY-19** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.15 白手起家四标志 |
+| 2026-05-20 | **GP-CY-20** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.16 一夜暴富三条件 |
+| 2026-05-20 | **GP-CY-21** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.16 暴富标志组合 |
+| 2026-05-20 | **GP-CS-02** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.17 天干五合看得失 |
+| 2026-05-20 | **GP-CS-03** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.18 天干生助看得失 |
+| 2026-05-20 | **GP-CS-05** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.20 我宫透出代表命主说话 |
+| 2026-05-20 | **GP-CS-06** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.21 三点一线定财法 |
+| 2026-05-20 | **GP-CS-09** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.22 官杀当财两条件 |
+| 2026-05-20 | **GP-CS-13** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.11 财富五大要素 |
+| 2026-05-20 | **GP-CS-19** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.23 格局=事业铁律 |
+| 2026-05-20 | **GP-CS-26** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.24 比劫六条定性法 |
 
 > **本队列建于 2026-05-18，v6.1.3（2026-05-19）首次执行阶段 5 晋级**：
 > - 4 条高派候选（GP-LF-13 ⭐ / GP-LF-14 ⭐⭐ / GP-SS-07 ⭐ / GP-SS-14 ⭐）由 0.6/2.4 状态晋级 → 主模块（FEAT-GP1）
@@ -728,6 +750,14 @@
 > - GP-CH-20 已于 v6.1.7 batch5 晋级（§D.10），不重复出队
 > - **累计已晋级 91 条**（v6.1.3×4 + v6.1.4×4 + v6.1.5×10 + v6.1.6×6 + v6.1.7×6 + v7.0-P1×19 + v7.0-P2×21 + v7.0-P3×21）
 > - 剩余候选：261 - 91 = **170 条仍在 P0 待审池**
+>
+> **v7.0 Phase 4（2026-05-20）模块 B 财运专题扩展 · 22 条晋级**：
+> - 22 条高派财运候选晋级写入 `modules/module-b-geju.md` §B.4.8~§B.4.24
+>   - GP-CY: 02/03/05/06/07/10/12/13/14/16/18/19/20/21（14 条）
+>   - GP-CS: 02/03/05/06/09/13/19/26（8 条）
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+> - **累计已晋级 113 条**（91 + 22）
+> - 剩余候选：261 - 113 = **148 条仍在 P0 待审池**
 
 ### §P.2.1.9 P0-9 GP-CS 系列详细子条目（38 条 · 2026-05-19 第 9 轮阶段 4 入库）
 
