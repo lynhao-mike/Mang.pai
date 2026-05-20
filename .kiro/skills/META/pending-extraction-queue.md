@@ -969,3 +969,33 @@
 | 2026-05-20 | **GP-MG-25** | (a) v7.0 Phase 7 阶段 5 晋级 · 已写入主模块 | `modules/module-e-zeri.md` §E.11.4 嫁娶择日女命大利月表 |
 | 2026-05-20 | **GP-MG-26** | (a) v7.0 Phase 7 阶段 5 晋级 · 已写入主模块 | `modules/module-e-zeri.md` §E.11.5 嫁娶择日核心禁忌19条 |
 | 2026-05-20 | **GP-MG-27** | (a) v7.0 Phase 7 阶段 5 晋级 · 已写入主模块 | `modules/module-e-zeri.md` §E.11.6 重丧判定与化解 |
+
+
+> **v7.0 Phase 8 出队（2026-05-20 · 模块 A 三垣命宫 + 模块 C 命宫应期/小限/长生 · 19 条 GP-MG 晋级）**
+> - GP-MG-01~06 共 6 条三垣命宫体系规律晋级写入 `modules/module-a-paipan.md` §A.2+.10
+> - GP-MG-08~18/28/29 共 13 条命宫应期+小限+长生规律晋级写入 `modules/module-c-yunqi.md` §C.7+.1~C.7+.13
+> - 高风险跳过：GP-MG-07/19/20/21（寿限/马倒禄斜）仍留候选池
+> - 暂留候选池：GP-MG-30（取名法诀，0.3 等级，当前无对应模块）
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+
+| 出队日期 | id | 出队原因 | 当前位置 |
+|---|---|---|---|
+| 2026-05-20 | **GP-MG-01** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.10 一 命宫正确排法铁律 |
+| 2026-05-20 | **GP-MG-02** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.10 二 三垣断法总纲6条 |
+| 2026-05-20 | **GP-MG-03** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.10 三 胎元应用10条 |
+| 2026-05-20 | **GP-MG-04** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.10 四 身宫应用5条 |
+| 2026-05-20 | **GP-MG-05** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.10 五 命宫与八字12条 |
+| 2026-05-20 | **GP-MG-06** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.10 六 命宫临神煞10条 |
+| 2026-05-20 | **GP-MG-08** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.1 命宫与大运流年4条 |
+| 2026-05-20 | **GP-MG-09** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.2 盲派神煞流年断诀12神 |
+| 2026-05-20 | **GP-MG-10** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.3 小限推步法 |
+| 2026-05-20 | **GP-MG-11** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.4 小限三种用法 |
+| 2026-05-20 | **GP-MG-12** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.5 月限推步法 |
+| 2026-05-20 | **GP-MG-13** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.6 明五行暗长生绝招 |
+| 2026-05-20 | **GP-MG-14** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.7 长生十二宫六亲联动 |
+| 2026-05-20 | **GP-MG-15** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.8 禄四种铁律 |
+| 2026-05-20 | **GP-MG-16** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.9 帝旺暗合绝招 |
+| 2026-05-20 | **GP-MG-17** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.10 胎地实战法 |
+| 2026-05-20 | **GP-MG-18** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.11 自坐十二长生断日柱 |
+| 2026-05-20 | **GP-MG-28** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.12 岁运并临6条判定 |
+| 2026-05-20 | **GP-MG-29** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.13 用神逢冲六组化解 |
