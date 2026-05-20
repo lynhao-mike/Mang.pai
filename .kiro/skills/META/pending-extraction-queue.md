@@ -999,3 +999,31 @@
 | 2026-05-20 | **GP-MG-18** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.11 自坐十二长生断日柱 |
 | 2026-05-20 | **GP-MG-28** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.12 岁运并临6条判定 |
 | 2026-05-20 | **GP-MG-29** | (a) v7.0 Phase 8 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.7+.13 用神逢冲六组化解 |
+
+
+
+> **v7.0 Phase 10 出队（2026-05-20 · GP-LF 理法篇剩余 14 条晋级）**
+> - GP-LF-01~06 共 6 条月令理论晋级写入 `modules/module-b-geju.md` §B.2.0
+> - GP-LF-16/17 共 2 条得失论晋级写入 `modules/module-b-geju.md` §B.1.3~B.1.4
+> - GP-LF-18 共 1 条六维取象法晋级写入 `modules/appendix-quxiang.md` §Q.4-F
+> - GP-LF-19/20/21 共 3 条阴阳论晋级写入 `modules/module-a-paipan.md` §A.2+.11
+> - GP-LF-22 共 1 条阳包阴格局晋级写入 `modules/module-b-geju.md` §B.1.5
+> - GP-LF-23 共 1 条寒暖转化晋级写入 `modules/module-c-yunqi.md` 不变量区
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+
+| 出队日期 | id | 出队原因 | 当前位置 |
+|---|---|---|---|
+| 2026-05-20 | **GP-LF-01** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.2.0 一 月令为提纲 |
+| 2026-05-20 | **GP-LF-02** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.2.0 二 六大正格铁律 |
+| 2026-05-20 | **GP-LF-03** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.2.0 三 黄大陆三论 |
+| 2026-05-20 | **GP-LF-04** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.2.0 四 盲派打开八字铁律 |
+| 2026-05-20 | **GP-LF-05** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.2.0 五 先天本元诀 |
+| 2026-05-20 | **GP-LF-06** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.2.0 六 清纯浊杂判格局 |
+| 2026-05-20 | **GP-LF-16** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.1.3 得失对称定义 |
+| 2026-05-20 | **GP-LF-17** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.1.4 路线优劣三段论 |
+| 2026-05-20 | **GP-LF-18** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/appendix-quxiang.md` §Q.4-F 六维取象法 |
+| 2026-05-20 | **GP-LF-19** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.11 一 阴阳双重维度 |
+| 2026-05-20 | **GP-LF-20** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.11 二 阴阳四个基本特征 |
+| 2026-05-20 | **GP-LF-21** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.11 三 阴阳应用六律 |
+| 2026-05-20 | **GP-LF-22** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.1.5 阳包阴/阴包阳格局 |
+| 2026-05-20 | **GP-LF-23** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` 不变量区 寒暖转化铁律 |
