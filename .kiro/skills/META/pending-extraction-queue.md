@@ -1027,3 +1027,30 @@
 | 2026-05-20 | **GP-LF-21** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.11 三 阴阳应用六律 |
 | 2026-05-20 | **GP-LF-22** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.1.5 阳包阴/阴包阳格局 |
 | 2026-05-20 | **GP-LF-23** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` 不变量区 寒暖转化铁律 |
+
+
+> **v7.0 Phase 10 续（2026-05-20）线A 车祸灾厄 + 线C 象法剩余 · 15 条晋级**：
+> - GP-CH-01~11 共 11 条车祸/伤残/寿限灾厄规律晋级写入 `modules/module-c-yunqi.md` §C.8+.1~§C.8+.7
+> - GP-XF-01/07/12/18 共 4 条象法剩余规律晋级写入 `modules/appendix-quxiang.md` §Q.4-I~L + `modules/module-a-paipan.md` §A.2+.12
+> - 高风险跳过 3 条：GP-CH-12（死期应期）/ GP-CH-13（空亡断死期）/ GP-CH-14（追魂铲度）→ 仍留候选池
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+> - **累计已晋级 231 条**（202 + 14 GP-LF + 11 GP-CH + 4 GP-XF）
+> - 剩余候选：261 - 231 = **30 条仍在候选池**
+
+| 出队日期 | id | 出队原因 | 当前位置 |
+|---|---|---|---|
+| 2026-05-20 | **GP-CH-01** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.1 车祸总诀铁律 |
+| 2026-05-20 | **GP-CH-02** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.2 ① 天马刑冲 |
+| 2026-05-20 | **GP-CH-03** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.2 ② 地支并排车像 |
+| 2026-05-20 | **GP-CH-04** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.2 ③ 身坐真马铁口定 |
+| 2026-05-20 | **GP-CH-05** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.2 ④ 印星正偏分主被动 |
+| 2026-05-20 | **GP-CH-06** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.2 ⑤⑥ 天透戊土+甲戊庚冲克 |
+| 2026-05-20 | **GP-CH-07** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.3 古书验诀九条 |
+| 2026-05-20 | **GP-CH-08** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.4 伤残七条铁律 |
+| 2026-05-20 | **GP-CH-09** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.7 六亲有灾八条 |
+| 2026-05-20 | **GP-CH-10** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.5 寿元星确定四法 |
+| 2026-05-20 | **GP-CH-11** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.8+.6 寿限长短五条 |
+| 2026-05-20 | **GP-XF-01** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-I 象法定义与流派传承 |
+| 2026-05-20 | **GP-XF-07** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-J 相合换像技法 |
+| 2026-05-20 | **GP-XF-12** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录+模块A | `modules/appendix-quxiang.md` §Q.4-K + `module-a-paipan.md` §A.2+.12 |
+| 2026-05-20 | **GP-XF-18** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-L 十干长生死位速查 |
