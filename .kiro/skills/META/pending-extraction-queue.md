@@ -1077,3 +1077,11 @@
 | 2026-05-20 | **GP-CS-07** | (a) v7.0 Phase 4 已覆盖（与 GP-CY-04 重复）·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.4 财气通门户三层铁律（GP-CY-04 主条目） |
 | 2026-05-20 | **GP-CS-08** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.10 有财无财核心判定（与 GP-CY-06+07 合并） |
 | 2026-05-20 | **GP-CS-20** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.23 格局=事业铁律（与 GP-CS-19 合并） |
+| 2026-05-20 | **GP-CS-12** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.11 财富级别瑕疵判定（与 GP-CY-10 合并） |
+| 2026-05-20 | **GP-CS-15** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.8 日坐财库（与 GP-CY-02+03 合并） |
+| 2026-05-20 | **GP-CS-16** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.16 一夜暴富三条件（与 GP-CY-20+21 合并） |
+| 2026-05-20 | **GP-CS-18** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.13 穷命七大特征（与 GP-CY-14 合并） |
+| 2026-05-20 | **GP-CS-25** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.12 求财四模式（与 GP-CY-12+13 合并） |
+| 2026-05-20 | **GP-CS-11** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.28 财富四级判断法 |
+| 2026-05-20 | **GP-CS-14** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.29 正偏财七重区别 |
+| 2026-05-20 | **GP-CS-17** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.30 风险求财四特征 |
