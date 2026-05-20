@@ -890,3 +890,68 @@
 
 *本队列由 blind-bazi-analyst skill META 层维护。*
 *版本：v1.0 | 首发：2026-05-18 | FEAT-005 创建 | 与主 Skill v6.1.0 协同。*
+
+
+> **v7.0 Phase 6（2026-05-20）模块 A 神煞专题扩展 · 52 条晋级**：
+> - GP-SS 22 条晋级：GP-SS-01/02/03/04/05/06/08/09/10/11/12/13/16/17/18/19/20/22/23/24/25/26
+> - GP-BD 30 条晋级：GP-BD-02/03/04/05/06/08/10/11/12/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/31/32/33/34/35
+> - 全部写入 `modules/module-a-paipan.md` §A.2+.1~§A.2+.9（神煞专题体系）
+> - 高风险跳过 3 条：GP-SS-15（飞刃倒戈无头鬼）/ GP-SS-21（四大空亡短命）/ GP-BD-30（冲天煞短命）→ 仍留候选池
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+> - **累计已晋级 177 条**（125 + 52）
+> - 剩余候选：261 - 177 = **84 条仍在 P0 待审池**
+
+| 出队日期 | id | 出队原因 | 当前位置 |
+|---|---|---|---|
+| 2026-05-20 | **GP-SS-01** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 一 天乙大贵6条件 |
+| 2026-05-20 | **GP-SS-02** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 一 天乙三等贵人 |
+| 2026-05-20 | **GP-SS-03** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 一 昼夜阳贵阴贵 |
+| 2026-05-20 | **GP-SS-04** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 二 天月二德4铁律 |
+| 2026-05-20 | **GP-SS-05** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 二 天月二德长寿 |
+| 2026-05-20 | **GP-SS-06** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 三 学业六神等级 |
+| 2026-05-20 | **GP-SS-08** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 三 三奇5条 |
+| 2026-05-20 | **GP-SS-09** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 三 华盖5重含义 |
+| 2026-05-20 | **GP-SS-10** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 一 三丘煞 |
+| 2026-05-20 | **GP-SS-11** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 二 五墓煞 |
+| 2026-05-20 | **GP-SS-12** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 三 天牢地狱煞 |
+| 2026-05-20 | **GP-SS-13** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 四 劫煞亡神 |
+| 2026-05-20 | **GP-SS-16** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 五 冲天煞 |
+| 2026-05-20 | **GP-SS-17** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 六 天煞孤星 |
+| 2026-05-20 | **GP-SS-18** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.3 一 空亡六亲取象 |
+| 2026-05-20 | **GP-SS-19** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.3 二 十神坐空6条 |
+| 2026-05-20 | **GP-SS-20** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.3 三 解空4钥匙 |
+| 2026-05-20 | **GP-SS-22** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.3 四 四大空亡3条件 |
+| 2026-05-20 | **GP-SS-23** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.4 一 童子煞5临床 |
+| 2026-05-20 | **GP-SS-24** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.4 二 童子5类辨别 |
+| 2026-05-20 | **GP-SS-25** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.4 三 阳支童子阴支童女 |
+| 2026-05-20 | **GP-SS-26** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.4 四 替身化解5步 |
+| 2026-05-20 | **GP-BD-02** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 一 阳贵阴贵辨别 |
+| 2026-05-20 | **GP-BD-03** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 四 将星实战 |
+| 2026-05-20 | **GP-BD-04** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 五 金舆国印车祸 |
+| 2026-05-20 | **GP-BD-05** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.1 六 桃花纳音精断 |
+| 2026-05-20 | **GP-BD-06** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.3 五 空亡实战补充 |
+| 2026-05-20 | **GP-BD-08** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 七 阳刃飞刃体系 |
+| 2026-05-20 | **GP-BD-10** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.5 一 命宫十二位 |
+| 2026-05-20 | **GP-BD-11** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.5 二 小限起法 |
+| 2026-05-20 | **GP-BD-12** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.5 三 大限起法 |
+| 2026-05-20 | **GP-BD-14** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.5 四 十九星起法 |
+| 2026-05-20 | **GP-BD-15** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.7 一 疾厄宫5星 |
+| 2026-05-20 | **GP-BD-16** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.7 二 天刑福德宫 |
+| 2026-05-20 | **GP-BD-17** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.7 三 天异星婚姻 |
+| 2026-05-20 | **GP-BD-18** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.7 四 孤辰寡宿命宫 |
+| 2026-05-20 | **GP-BD-19** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 一 12神总序 |
+| 2026-05-20 | **GP-BD-20** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 二 天干通支表 |
+| 2026-05-20 | **GP-BD-21** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 三 12神归类 |
+| 2026-05-20 | **GP-BD-22** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 四 点窍6条 |
+| 2026-05-20 | **GP-BD-23** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 五 组合断法 |
+| 2026-05-20 | **GP-BD-24** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 六 三种起太岁 |
+| 2026-05-20 | **GP-BD-25** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.6 七 12神断性格 |
+| 2026-05-20 | **GP-BD-26** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 八 四废致残 |
+| 2026-05-20 | **GP-BD-27** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.8 一 红艳流年 |
+| 2026-05-20 | **GP-BD-28** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.8 三 流霞走动 |
+| 2026-05-20 | **GP-BD-29** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.2 九 淫欲煞日刃 |
+| 2026-05-20 | **GP-BD-31** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.8 二 纳音桃花 |
+| 2026-05-20 | **GP-BD-32** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.7 五 十九星夫妻宫 |
+| 2026-05-20 | **GP-BD-33** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.7 六 十九星儿女宫 |
+| 2026-05-20 | **GP-BD-34** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.5 五 命宫12宫富贵 |
+| 2026-05-20 | **GP-BD-35** | (a) v7.0 Phase 6 阶段 5 晋级 · 已写入主模块 | `modules/module-a-paipan.md` §A.2+.5 六 12宫神煞A法 |
