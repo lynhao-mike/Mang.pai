@@ -1054,3 +1054,26 @@
 | 2026-05-20 | **GP-XF-07** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-J 相合换像技法 |
 | 2026-05-20 | **GP-XF-12** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录+模块A | `modules/appendix-quxiang.md` §Q.4-K + `module-a-paipan.md` §A.2+.12 |
 | 2026-05-20 | **GP-XF-18** | (a) v7.0 Phase 10 阶段 5 晋级 · 已写入附录 | `modules/appendix-quxiang.md` §Q.4-L 十干长生死位速查 |
+
+
+
+> **v7.0 Phase 11 出队（2026-05-20 · GP-DY/CY/CS 剩余晋级 · 5 条新晋级 + 4 条补录出队）**：
+> - GP-DY-04 共 1 条命运岁能量铁律晋级写入 `modules/module-c-yunqi.md` §C.1.3
+> - GP-CY-11/17/22 共 3 条财运辅助规律晋级写入 `modules/module-b-geju.md` §B.4.25~§B.4.27
+> - GP-CS-10 共 1 条发财应期三到位补强写入 `modules/module-c-yunqi.md` §C.4.9-E
+> - GP-CS-04/07/08/20 共 4 条（Phase 4 已写入但漏标出队 → 本次补录）
+> - 全部走 §P.3.1 (a) 路径出队（已写入主模块且 grep 可证）
+> - **累计已晋级 240 条**（231 + 5 新 + 4 补录）
+> - 剩余候选：261 - 240 = **21 条仍在候选池**
+
+| 出队日期 | id | 出队原因 | 当前位置 |
+|---|---|---|---|
+| 2026-05-20 | **GP-DY-04** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.1.3 命运岁三级能量铁律 |
+| 2026-05-20 | **GP-CY-11** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.25 河洛数估财法 |
+| 2026-05-20 | **GP-CY-17** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.26 传子孙遗产判定6条 |
+| 2026-05-20 | **GP-CY-22** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.27 大起大落命理标志 |
+| 2026-05-20 | **GP-CS-10** | (a) v7.0 Phase 11 阶段 5 晋级 · 已写入主模块 | `modules/module-c-yunqi.md` §C.4.9-E 发财应期三到位 |
+| 2026-05-20 | **GP-CS-04** | (a) v7.0 Phase 4 已写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.19 预测财运三步框架 |
+| 2026-05-20 | **GP-CS-07** | (a) v7.0 Phase 4 已覆盖（与 GP-CY-04 重复）·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.4 财气通门户三层铁律（GP-CY-04 主条目） |
+| 2026-05-20 | **GP-CS-08** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.10 有财无财核心判定（与 GP-CY-06+07 合并） |
+| 2026-05-20 | **GP-CS-20** | (a) v7.0 Phase 4 已合并写入·Phase 11 补录出队 | `modules/module-b-geju.md` §B.4.23 格局=事业铁律（与 GP-CS-19 合并） |
