@@ -16,8 +16,9 @@
 ```
 Mang.pai/
 ├── README.md                                      本文件
+├── STATUS.md                                      持久状态（进度/约束/偏好 · 不随会话变）
 ├── CHANGELOG_AI分析师提示词.md                    提示词变更日志（v1.0 → v2.3 全记录）
-├── handoff.md                                     AI会话交接文档（每次新会话覆写）
+├── handoff.md                                     临时交接（每次新会话覆写 · 仅快照+续推）
 │
 ├── 📘 提示词/（历史版本归档 · 已冻结 · 只读）
 │   ├── 盲派命理AI分析师提示词_v1.md               基础理论体系（v1.0）🔒
@@ -56,14 +57,16 @@ Mang.pai/
 │   └── 盲派神煞应用宝典.md
 │
 └── 🧠 .kiro/skills/（AI Skill · 自我迭代系统 · v7.0）
+    ├── BOOT.md                                    最小加载集（冷启动清单 + 按需加载规则）
     ├── blind-bazi-analyst.md                      主 Skill 路由层入口
     ├── blind-bazi-cases-index.md                  案例主索引 + 八字指纹库 + 规律分数板
     ├── calibration-log.md                         置信度校准日志
     ├── rule-conflicts.md                          规律冲突待判池
-    ├── modules/                                   理论模块层（按需加载）
+    ├── modules/                                   理论模块层（按需加载 · 见 BOOT.md 触发规则）
     │   ├── module-a-paipan.md                     A · 排盘与基础作用
     │   ├── module-b-geju.md                       B · 格局与意向识别 + 财运
     │   ├── module-c-yunqi.md                      C · 大运流年交互应期
+    │   ├── module-c2-zaihou.md                   C2 · 车祸灾厄专题（从C拆出 · 按需加载）
     │   ├── module-d-hehun.md                      D · 合婚双盘交互层
     │   ├── module-e-zeri.md                       E · 剖腹产择日独立流程层
     │   ├── appendix-quxiang.md                    附录-取象字典
