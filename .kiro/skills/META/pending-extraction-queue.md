@@ -690,6 +690,18 @@
 | 2026-05-20 | **GP-CS-13** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.11 财富五大要素 |
 | 2026-05-20 | **GP-CS-19** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.23 格局=事业铁律 |
 | 2026-05-20 | **GP-CS-26** | (a) v7.0 Phase 4 阶段 5 晋级 · 已写入主模块 | `modules/module-b-geju.md` §B.4.24 比劫六条定性法 |
+| 2026-05-20 | **GP-CS-27** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.3 五步定职业柱法（完整版） |
+| 2026-05-20 | **GP-CS-28** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.3 职业左柱法（完整版） |
+| 2026-05-20 | **GP-CS-29** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.8 高派断职业五关注法 |
+| 2026-05-20 | **GP-CS-30** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 教师·高派五标志 |
+| 2026-05-20 | **GP-CS-31** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 公务员·高派七格局 |
+| 2026-05-20 | **GP-CS-32** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 医生·高派六标志 |
+| 2026-05-20 | **GP-CS-33** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 银行·高派七组合 |
+| 2026-05-20 | **GP-CS-34** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 房地产·高派四标志 |
+| 2026-05-20 | **GP-CS-35** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 财务·高派七标志 |
+| 2026-05-20 | **GP-CS-36** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 律师·高派三要素 |
+| 2026-05-20 | **GP-CS-37** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 小偷·高派五铁律 |
+| 2026-05-20 | **GP-CS-38** | (a) v7.0 Phase 5 阶段 5 晋级 · 已写入职业附录 | `modules/appendix-zhiye.md` §Z.1 公检法·高派六格局 |
 
 > **本队列建于 2026-05-18，v6.1.3（2026-05-19）首次执行阶段 5 晋级**：
 > - 4 条高派候选（GP-LF-13 ⭐ / GP-LF-14 ⭐⭐ / GP-SS-07 ⭐ / GP-SS-14 ⭐）由 0.6/2.4 状态晋级 → 主模块（FEAT-GP1）
