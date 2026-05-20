@@ -1,10 +1,10 @@
-# 会话交接文档（Handoff · 2026-05-19 · v3）
+# 会话交接文档（Handoff · 2026-05-19 · v4）
 
-> **生成时间**：2026-05-19（第三版 · v6.1.7 案例004归档 + v7.0 Phase 1/2 并行后更新）
-> **当前 Skill 版本**：v6.1.7（主入口）· v7.0 Phase 2 正在另一 agent 推进中
-> **当前 main commit**：`e4fcbf7`（feat(v6.1.7): 案例004归档）
+> **生成时间**：2026-05-19（第四版 · v7.0 Phase 1+2 全部完成后更新）
+> **当前 Skill 版本**：v6.1.7（主入口路由层版本号）+ v7.0 Phase 1+2（已写入主模块）
+> **当前 main commit**：`91a9735`（v7.0 Phase 2: 模块C大运流年体系化重写 · 21条晋级）
 > **粘贴位置**：直接发给新会话的 Kiro，让它读 `handoff.md` 后续推
-> **⚠ 并行注意**：v7.0 Phase 2 正在另一个 agent 中执行（M8 骨架 + 取象附录 + 模块 A 地支关系补全 19 条晋级），本 session 不要改动 blind-bazi-analyst.md §M8 / appendix-quxiang.md / module-a-paipan.md §A.2.11~14 这几个区域
+> **✅ 并行解除**：v7.0 Phase 1+2 已全部 push 到 main，本 session 可自由改动所有文件
 
 ---
 
@@ -13,6 +13,7 @@
 将仓库 `高派命理理论知识库/` 下的 **10 份高派盲派命理理论 md**（高德臣 2018 弟子班讲义 + 提高班讲义 + 神煞应用宝典），按 `.kiro/skills/META/ingestion-protocol.md` 五阶段协议**逐份提取入库**。
 
 **🎉 阶段 3+4（提取 + 候选入库）已于 2026-05-19 全部完成。**
+**🚀 阶段 5 已晋级 70/261 条（5 微补批次 30 条 + v7.0 P1 19 条 + v7.0 P2 21 条）。**
 
 ---
 
@@ -34,20 +35,21 @@
 
 **候选总数：261 条**
 
-### ✅ 阶段 5 晋级：已完成 30+19 条（5 个正式批次 + v7.0 Phase 1）
+### ✅ 阶段 5 晋级：累计已完成 70 条
 
-| 批次 | 版本 | 条数 | 晋级编号 | PR |
-|---|---|---|---|---|
-| 第 1 批 | v6.1.3 | 4 | GP-LF-13/14 + GP-SS-07/14 | #23 |
-| 第 2 批 | v6.1.4 | 4 | GP-XF-02/04/06/22+23 | （同 PR 内） |
-| 第 3 批 | v6.1.5 | 10 | GP-BD-01/07/09/13 + GP-DY-01/02/03/16 + GP-CY-04 + GP-CS-01 | — |
-| 第 4 批 | v6.1.6 | 6 | GP-DY-05/11/25 + GP-CY-01 + GP-XF-08/10 | — |
-| 第 5 批 | v6.1.7 | 6 | GP-XF-14 + GP-CY-09 + GP-DY-06/13/12 + GP-CH-20 | #34→#37 |
-| v7.0 P1 | v7.0 | 19 | GP-LF-07~12/15 + GP-XF-03/05/09/11/13/15/16/17/19/20/21/24 | 另一 agent 推进中 |
+| 批次 | 版本 | 条数 | 晋级编号 |
+|---|---|---|---|
+| 第 1 批 | v6.1.3 | 4 | GP-LF-13/14 + GP-SS-07/14 |
+| 第 2 批 | v6.1.4 | 4 | GP-XF-02/04/06/22+23 |
+| 第 3 批 | v6.1.5 | 10 | GP-BD-01/07/09/13 + GP-DY-01/02/03/16 + GP-CY-04 + GP-CS-01 |
+| 第 4 批 | v6.1.6 | 6 | GP-DY-05/11/25 + GP-CY-01 + GP-XF-08/10 |
+| 第 5 批 | v6.1.7 | 6 | GP-XF-14 + GP-CY-09 + GP-DY-06/13/12 + GP-CH-20 |
+| **v7.0 Phase 1** | v7.0 | **19** | GP-LF-07~12/15 + GP-XF-03/05/09/11/13/15/16/17/19/20/21/24（M8 骨架 + 取象附录补全 + 模块A地支关系）|
+| **v7.0 Phase 2** | v7.0 | **21** | GP-DY-07/08/09/10/14/15/17/18/19/20/21/22/23/24/26/27/28 + GP-CS-22/23/24 + GP-CY-08/15（模块C大运流年体系化重写）|
 
-**累计已晋级 49 条 · 剩余候选池 212 条**
+**累计已晋级 70 条 · 剩余候选池 191 条**
 
-### ✅ 案例 004 归档（v6.1.7 · 本 session 完成）
+### ✅ 案例 004 归档（v6.1.7 · 已完成）
 
 | 任务 | 写入位置 | 状态 |
 |---|---|---|
@@ -57,20 +59,25 @@
 | META source-trace §S.1.15 案例004全量三元组 | META/source-trace.md | ✅ |
 | 主入口 v6.1.7 版本号 + 版本日志 + 路由表业务搭档触发行 | blind-bazi-analyst.md | ✅ |
 
-新增规律 10 条：2 协议级直升 + 5 候选 0.6/2.4 + 3 待验证候选
+### ✅ 案例 003 batch5 验证报告（已沉淀，待回写评分）
 
-### 已合并 PR 列表（本任务相关）
+`案例库/案例003_batch5规则验证_2026-05-19.md` 已生成，验证结论：
+- **GP-DY-12（填实即验）**：★★★★★ 铁证 → 建议 0.6→1.2
+- **GP-XF-14（入墓5条件+冲开）**：★★★★★ 铁证 → 建议 0.6→1.2
+- **GP-DY-06（引发忌神5条）**：★★★★ 反向验证 → 建议 0.6→0.8
+- **GP-DY-13（大运合冲4效应）**：★★★★ 正面验证 → 建议 0.6→0.8
 
-| PR | 内容 | 状态 |
-|---|---|---|
-| #19 | 删除所有 PDF | ✅ 已合并 |
-| #20 | 创建高派命理理论知识库文件夹 | ✅ 已合并 |
-| #21 | 第 1 轮《理法篇》深度入库 | ✅ 已合并 |
-| #22 | 第 2 轮《神煞篇》深度入库 | ✅ 已合并 |
-| #23 | v6.1.3 微补 · 4 条铁律首次晋级 | ✅ 已合并 |
-| #34 | batch5 规则写入单文件 v2.1 | ✅ 已合并 |
-| #35 | 案例 003 batch5 规则验证 | ✅ 已合并 |
-| #37 | v6.1.7 batch5 双向同步到模块化 Skill | ✅ 已合并（当前 HEAD）|
+> 评分回写到 `pending-extraction-queue.md` 待 v7.0 Phase 3 一并处理。
+
+### 最近重要 commit（按时间倒序）
+
+```
+91a9735 v7.0 Phase 2: 模块C大运流年体系化重写 · 21条晋级（当前 HEAD）
+9c4ec62 docs: handoff.md v3 — 案例004归档+v7.0并行状态+git流程改直推
+e4fcbf7 feat(v6.1.7): 案例004归档 — 月令优先取格/业务搭档双盘/三分判自检/META登记
+51b9081 feat(skill): v7.0 Phase 1 — M8 高派批命模式骨架 + 取象附录补全 + 模块A地支关系（19条晋级）
+8e16066 feat(案例004): 归档坤命1984业务搭档双盘协同 + 模块A精度修正
+```
 
 ---
 
@@ -78,37 +85,30 @@
 
 | 文件 | 说明 | 最新状态 |
 |---|---|---|
-| `META/pending-extraction-queue.md` | 候选规律队列 | 261 条全量入库 + §P.4 出队记录 30 条 |
-| `META/source-trace.md` | 来源追溯三元组 | §S.1.9~§S.1.14 全部 10 轮 + §S.1.1~§S.1.8 历史规律 |
-| `META/module-coverage-matrix.md` | 模块覆盖度矩阵 | 10 份 md 全部标 🟢 阶段 3+4 完成 |
+| `META/pending-extraction-queue.md` | 候选规律队列 | 261 条全量入库 + §P.4 出队记录 70 条（含 v7.0 P1+P2 共 40 条）|
+| `META/source-trace.md` | 来源追溯三元组 | §S.1.1~§S.1.19（含 v7.0 P2 §S.1.19 新增 21 条）|
+| `META/module-coverage-matrix.md` | 模块覆盖度矩阵 | 10 份 md 全部 🟢 阶段 3+4 完成；模块 C 已升格为含 v7.0 P2 |
 | `META/extracted/` | 提取报告（10 份）| 全部生成 |
-| `blind-bazi-cases-index.md` | 案例索引 + 规律分数板 | 30 条已晋级行已标注 |
+| `blind-bazi-cases-index.md` | 案例索引 + 规律分数板 | 70 条已晋级行已标注 |
 
 ---
 
-## 四、下一步行动（v7.0 战略级体系重构）
+## 四、下一步行动（v7.0 Phase 3 候选方向）
 
-### 🎯 核心目标
+### 🎯 已完成
 
-10 份高派 md 全部入候选库后，启动**高派理法→象法→神煞三模块体系级重构**，新增主入口 M8 高派批命模式。
+- ✅ Phase 1：M8 高派批命模式骨架 + 取象附录补全 + 模块 A 地支关系（19 条）
+- ✅ Phase 2：模块 C 大运流年体系化重写（21 条 GP-DY/CS/CY）
 
-### 重构三大方向
+### 🔥 Phase 3 候选方向（按候选数量优先）
 
-| # | 方向 | 涉及模块 | 候选规律来源 |
-|---|---|---|---|
-| 1 | **主入口 M8 高派批命模式** | `blind-bazi-analyst.md` 新增 §M8 | 三大支柱联动：体用(GP-LF) + 象法(GP-XF) + 神煞(GP-SS/BD) |
-| 2 | **取象附录全面升级** | `appendix-quxiang.md` §Q.1~Q.4 | GP-XF 剩余 17 条（含 GP-XF-03/05/09/11/15/17/19/20/21/24 等） |
-| 3 | **模块 C 大运流年体系化重写** | `module-c-yunqi.md` §C.2~C.5 | GP-DY 剩余 17 条 + GP-CS 大运限运类 8 条 |
-
-### 补充方向
-
-| # | 方向 | 涉及模块 | 候选规律来源 |
-|---|---|---|---|
-| 4 | 模块 D 婚姻大升级 | `module-d-hehun.md` §D.9+ | GP-CH 婚姻类 21 条 |
-| 5 | 模块 B 财运专题扩展 | `module-b-geju.md` §B.4+ | GP-CY 剩余 16 条 + GP-CS 财运类 10 条 |
-| 6 | 职业附录体系化 | `appendix-zhiye.md` §Z.1+ | GP-CS 断职业 12 条 |
-| 7 | 模块 E 择日升级 | `module-e-zeri.md` | GP-MG 择日 6 条 |
-| 8 | 健康/寿限专题（高风险） | 新建 cases/health 专题 | GP-CH-10~14 + GP-MG-07/19~21 + GP-BD-30（≥3 反例校验后） |
+| # | 方向 | 涉及模块 | 候选规律来源 | 推荐度 |
+|---|---|---|---|---|
+| **A** | **模块 D 婚姻大升级** | `module-d-hehun.md` §D.12+ | GP-CH 婚姻类 21 条（GP-CH-15~33）| ⭐⭐⭐⭐⭐（候选最多 + 与 §D.11 业务搭档形成完整婚姻体系）|
+| B | 模块 B 财运专题扩展 | `module-b-geju.md` §B.4.8+ | GP-CY 剩余 14 条 + GP-CS 财运类 8 条 | ⭐⭐⭐⭐ |
+| C | 职业附录体系化 | `appendix-zhiye.md` §Z.1+ | GP-CS 断职业 12 条 | ⭐⭐⭐ |
+| D | 模块 E 择日升级 | `module-e-zeri.md` | GP-MG 择日 6 条 | ⭐⭐ |
+| E | 模块 A 神煞专题扩展 | `module-a-paipan.md` §A.1.4+ | GP-SS 剩余 24 条（除已晋级的 07/14）+ GP-BD 剩余 31 条 | ⭐⭐⭐ |
 
 ### 高风险铁律（严禁未验证晋级）
 
@@ -130,7 +130,7 @@
 阶段 2 分类  —— ✅ 全部归"理论提示词分支 A"
 阶段 3 提取  —— ✅ 10 份提取报告全部生成（261 条候选）
 阶段 4 入候选库 —— ✅ 261 条全部写入 pending-extraction-queue.md
-阶段 5 晋级  —— 🔥 已完成 30 条（5 批次）· 剩余 231 条等案例验证 / v7.0 重构
+阶段 5 晋级  —— 🔥 已完成 70 条 · 剩余 191 条等案例验证 / Phase 3 重构
 ```
 
 ### 反幻觉硬约束（不变量）
@@ -143,17 +143,17 @@
 
 ### 候选规律编号约定
 
-| 前缀 | 来源 | 条数 |
-|---|---|---|
-| GP-LF | 理法篇 | 23 |
-| GP-SS | 神煞篇 | 26 |
-| GP-XF | 象法篇 | 24 |
-| GP-DY | 大运流年篇 | 28 |
-| GP-CY | 财运篇 | 22 |
-| GP-CH | 车祸婚姻篇 | 35 |
-| GP-MG | 命宫长生诀择日篇 | 30 |
-| GP-CS | 财运事业断法提高班 | 38 |
-| GP-BD | 盲派神煞应用宝典 | 35 |
+| 前缀 | 来源 | 总数 | 已晋级 | 剩余 |
+|---|---|---|---|---|
+| GP-LF | 理法篇 | 23 | 9（07~15）| 14 |
+| GP-SS | 神煞篇 | 26 | 2（07/14）| 24 |
+| GP-XF | 象法篇 | 24 | 14 | 10 |
+| GP-DY | 大运流年篇 | 28 | 21 | 7 |
+| GP-CY | 财运篇 | 22 | 5 | 17 |
+| GP-CH | 车祸婚姻篇 | 35 | 1（20）| 34 |
+| GP-MG | 命宫长生诀择日篇 | 30 | 0 | 30 |
+| GP-CS | 财运事业断法提高班 | 38 | 4 | 34 |
+| GP-BD | 盲派神煞应用宝典 | 35 | 4 | 31 |
 
 ---
 
@@ -167,7 +167,7 @@
 | **协议遵守** | 极重视 META 协议 / 反幻觉铁律，要求严格按五阶段走 |
 | **避免** | 过度自夸 / 表情符号堆砌 / 流水账 |
 | **git 流程** | **直接 push 到 main，不走 PR**（2026-05-19 起明确） |
-| **接班期望** | 模型先核对仓库实际状态再说"已就绪"，不要假装 |
+| **接班期望** | 模型先 pull 最新 main + 看 commit log，核对仓库实际状态再说"已就绪" |
 | **验证态度** | 接受"先不用验证，直接往下干"但模型自己坚守反幻觉铁律 |
 | **决策风格** | 面对污染样本接受降级；强调诚实命中率而非虚高 |
 
@@ -180,35 +180,36 @@
 仓库：lynhao-mike/Mang.pai
 网络模式：INTEGRATIONS_ONLY（不能 pip install / curl 外网）
 PDF OCR：无（已由外部 MinerU 解决，10 份 md 已上传）
-git 操作：用 mcp_sandbox_github_* 工具（push / create_pr / pull_repository）
+git 操作：用 mcp_sandbox_github_* 工具（push / pull_repository）
 git pull 直接命令会因 auth 失败 → 改用 mcp_sandbox_github_pull_repository
+git push 必须用 mcp_sandbox_github_push_to_remote（不能用 git push 命令）
 ```
 
 ---
 
 ## 八、涉及文件速查
 
-### 主模块体系（v6.1.7 当前态）
+### 主模块体系（v6.1.7 + v7.0 P1+P2 当前态）
 
 ```
-.kiro/skills/blind-bazi-analyst.md           # 主入口路由层
-.kiro/skills/modules/module-a-paipan.md      # 排盘（§A.2.7~A.2.10 含高派晋级）
-.kiro/skills/modules/module-b-geju.md        # 格局（§B.4.3~B.4.7 含高派晋级）
-.kiro/skills/modules/module-c-yunqi.md       # 大运流年（§C.2.4~C.3.11 含高派晋级）
-.kiro/skills/modules/module-d-hehun.md       # 合婚（§D.9~D.10 含高派晋级）
-.kiro/skills/modules/module-e-zeri.md        # 剖腹产择日
-.kiro/skills/modules/appendix-quxiang.md     # 取象（§Q.4-A~E 含高派晋级）
-.kiro/skills/modules/appendix-zhiye.md       # 职业
+.kiro/skills/blind-bazi-analyst.md           # 主入口路由层（v6.1.7 + §M8 高派批命模式 v7.0 新增）
+.kiro/skills/modules/module-a-paipan.md      # 排盘（§A.2.7~A.2.14 含高派晋级 + 地支关系补全）
+.kiro/skills/modules/module-b-geju.md        # 格局（§B.2.2 + §B.4.3~B.4.7 + §B.8.7 含高派晋级）
+.kiro/skills/modules/module-c-yunqi.md       # 大运流年（§C.2.4~C.6 含 v7.0 P2 大运流年体系化重写）
+.kiro/skills/modules/module-d-hehun.md       # 合婚（§D.9~D.11 含高派晋级 + 业务搭档双盘）
+.kiro/skills/modules/module-e-zeri.md        # 剖腹产择日（未受 v7.0 影响）
+.kiro/skills/modules/appendix-quxiang.md     # 取象（§Q.1~Q.4 含 v7.0 P1 全面补全）
+.kiro/skills/modules/appendix-zhiye.md       # 职业（未受 v7.0 影响）
 ```
 
 ### META 五件套
 
 ```
 .kiro/skills/META/ingestion-protocol.md      # 协议主文档（不改）
-.kiro/skills/META/pending-extraction-queue.md # 候选队列（261 条 + 30 出队记录）
+.kiro/skills/META/pending-extraction-queue.md # 候选队列（261 条 + §P.4 出队 70 条）
 .kiro/skills/META/module-coverage-matrix.md  # 覆盖度矩阵
-.kiro/skills/META/source-trace.md            # 来源追溯表
-.kiro/skills/blind-bazi-cases-index.md       # 案例索引 + 规律分数板
+.kiro/skills/META/source-trace.md            # 来源追溯表（§S.1.1~§S.1.19）
+.kiro/skills/blind-bazi-cases-index.md       # 案例索引 + 规律分数板（含 70 条晋级标注）
 ```
 
 ### 提取报告（10 份）
@@ -225,26 +226,50 @@ git pull 直接命令会因 auth 失败 → 改用 mcp_sandbox_github_pull_repos
 .kiro/skills/META/extracted/高派_神煞应用宝典_候选规律提取_2026-05-19.md
 ```
 
+### 案例库
+
+```
+案例库/INDEX.md                               # 案例索引（CASE-001/002/003/004）
+案例库/案例001_乙丑庚辰己丑庚午_男命公务员.md
+案例库/案例002_*.md                           # 多份（坤命1992 + 合婚补充 + 婚育时间线 + 子女铁证 + 错误修正）
+案例库/案例003_庚辰乙酉丙申乙未_乾命浙大学业.md
+案例库/案例003_第三轮反馈_父母健康铁证_2026-05-18.md
+案例库/案例003_batch5规则验证_2026-05-19.md   # 4 条 v6.1.7 候选验证报告（待回写评分）
+案例库/案例004_甲子丁卯癸卯庚申_坤命_1984_业务搭档双盘协同.md
+```
+
 ---
 
 ## 九、续推指令模板
 
 ```
-[选 1: 启动 v7.0 体系重构]
-启动 v7.0 战略级体系重构，按 handoff.md §四规划执行
+[选 A · 推荐] 启动 v7.0 Phase 3：模块 D 婚姻大升级
+按 GP-CH 婚姻类 21 条候选写入 module-d-hehun.md §D.12+，
+保留 §D.11 业务搭档不动，形成完整婚姻判定体系。
+五件套同步 + 直接 push main。
 
-[选 2: 第六批微补 v6.1.8]
-从 231 条候选池挑评分最高的 6~8 条晋级
+[选 B] v7.0 Phase 3：模块 B 财运专题扩展
+按 GP-CY/CS 共 22 条候选写入 module-b-geju.md §B.4.8+
 
-[选 3: 回归验证]
-用 CASE-001/002/003 跑含 30 条已晋级铁律的 Skill 全量验证
+[选 C] v7.0 Phase 3：职业附录体系化
+按 GP-CS 断职业 12 条写入 appendix-zhiye.md §Z.1+
 
-[选 4: 新案例入库]
-我有新案例反馈，用来验证候选规律
+[选 D] 回归验证
+用 CASE-001/002/003/004 跑含 70 条已晋级铁律的 Skill 全量验证
+
+[选 E] 回写案例003 batch5 验证报告评分
+把 GP-DY-12/14/06/13 四条评分升级写入 pending-extraction-queue.md
+
+[选 F] 新案例入库
+我有新案例反馈，用来验证候选规律或归档新案例
+
+[选 G] 续做 v6.1.7 收尾任务
+更新 案例库/INDEX.md 加 CASE-004 元信息 +
+calibration-log 登记案例004 的 7 条精度教训 +
+v2.1 单文件同步 §B.2.2/§B.8.7/§D.11
 ```
 
 ---
 
-*本交接文档 v3 由 2026-05-19 会话生成。*
-*当前实际进度：10/10 入库完成 · 49 条已晋级 · 案例 004 归档完成 · v7.0 Phase 2 并行中。*
-*下一步可选：A 案例库INDEX更新 / B calibration-log登记 / C v2.1单文件同步 / D 案例003 batch5验证 / 继续 v7.0 Phase 3。*
+*本交接文档 v4 由 2026-05-19 会话生成，替代 v3。*
+*当前实际进度：10/10 入库完成 · **70 条已晋级**（30 微补 + 19 P1 + 21 P2）· 剩余 191 候选 · v7.0 Phase 1+2 完成 · 等 Phase 3 启动。*
